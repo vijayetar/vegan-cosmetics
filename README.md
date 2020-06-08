@@ -53,6 +53,10 @@
 * Successfully retrieve cosmetics
 * Successfully review ingredients and sieve the data
 * Successfully find vegan ingredients 
+### Dependencies
+* poetry add requests
+* poetry add bs4
+
 
 ## Title
 * Save personalized search results to .txt file
