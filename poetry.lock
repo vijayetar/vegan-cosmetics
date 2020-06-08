@@ -66,6 +66,7 @@ d = ["aiohttp (>=3.3.2)", "aiohttp-cors"]
 
 [[package]]
 category = "main"
+
 description = "Dummy package for Beautiful Soup"
 name = "bs4"
 optional = false
@@ -77,6 +78,7 @@ beautifulsoup4 = "*"
 
 [[package]]
 category = "main"
+
 description = "Python package for providing Mozilla's CA Bundle."
 name = "certifi"
 optional = false
@@ -273,7 +275,9 @@ python-versions = "*"
 version = "0.2.4"
 
 [metadata]
+
 content-hash = "3fa11f79e9a7f3aaf8cdb67e3c5c70f3ec31c78dc394ec51b32e68df77199bcd"
+
 python-versions = "^3.8"
 
 [metadata.files]
@@ -298,9 +302,11 @@ black = [
     {file = "black-19.10b0-py36-none-any.whl", hash = "sha256:1b30e59be925fafc1ee4565e5e08abef6b03fe455102883820fe5ee2e4734e0b"},
     {file = "black-19.10b0.tar.gz", hash = "sha256:c2edb73a08e9e0e6f65a0e6af18b059b8b1cdd5bef997d7a0b181df93dc81539"},
 ]
+
 bs4 = [
     {file = "bs4-0.0.1.tar.gz", hash = "sha256:36ecea1fd7cc5c0c6e4a1ff075df26d50da647b75376626cc186e2212886dd3a"},
 ]
+
 certifi = [
     {file = "certifi-2020.4.5.2-py2.py3-none-any.whl", hash = "sha256:9cd41137dc19af6a5e03b630eefe7d1f458d964d406342dd3edf625839b944cc"},
     {file = "certifi-2020.4.5.2.tar.gz", hash = "sha256:5ad7e9a056d25ffa5082862e36f119f7f7cec6457fa07ee2f8c339814b80c9b1"},

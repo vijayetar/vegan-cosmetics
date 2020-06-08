@@ -6,8 +6,12 @@ authors = ["jpchato <jpchato@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+
 bs4 = "^0.0.1"
-requests = "^2.23.0"
+
+
+Requests = "^2.23.0"
+
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
