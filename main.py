@@ -2,11 +2,13 @@ from textwrap import dedent
 import re
 from vegan_cosmetics.search_with_api.beauty_api import beauty_api_call
 #User information
-#User input
-#Search API : match input with key values by name
+##User input
+##Search API : match input with key values by name
 #Search web page
 ##select item or all search is saved
-#save to text file
+##save to text file
+# retrieve file for the user
+# display the personalized file for the user
 
 def welcome_information():
   """

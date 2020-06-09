@@ -133,6 +133,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.venv
+.vscode
 
 # pytype static type analyzer
 .pytype/
