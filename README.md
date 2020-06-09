@@ -10,6 +10,7 @@
 * black 
 * pytest
 * regex
+* json
 
 
 ## Title
