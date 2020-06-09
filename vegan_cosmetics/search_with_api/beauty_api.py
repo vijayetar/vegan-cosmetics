@@ -6,7 +6,9 @@ def beauty_api_call():
 
     with open('./assets/beauty_api.json', 'r') as f:
         response = json.loads(f.read())
+    making_vegan_makeup_list(response)
 
+def making_vegan_makeup_list(response):
     vegan_makeup_list = []
     vegan_dict= {'name':None, 'price':None, 'tag':None, 'description':None}
 

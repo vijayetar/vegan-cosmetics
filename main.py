@@ -55,6 +55,7 @@ def find_search_product(search_product, user_fav_list):
       if re.search(pattern,item['name'].strip()):
         user_fav_list.append(item)
     # user_fav_list=list(set(user_fav_list))
+
     print(user_fav_list)
     user_input(user_fav_list)
 
