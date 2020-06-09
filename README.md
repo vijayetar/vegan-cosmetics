@@ -2,6 +2,17 @@
 * Jesse Pena, Corey Marchand, Vij Rangarajan
 * Check cosmetics for vegan ingredients
 
+### Dependencies
+* gitignore
+* requests
+* bs4
+* selenium
+* black 
+* pytest
+* regex
+* json
+
+
 ## Title
 * Looking for vegan cosmetics
 ### User Story sentence
@@ -53,9 +64,6 @@
 * Successfully retrieve cosmetics
 * Successfully review ingredients and sieve the data
 * Successfully find vegan ingredients 
-### Dependencies
-* poetry add requests
-* poetry add bs4
 
 
 ## Title
