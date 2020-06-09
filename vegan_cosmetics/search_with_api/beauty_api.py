@@ -1,4 +1,4 @@
-import requests
+# import requests
 import json
 
 def beauty_api_call():
@@ -21,11 +21,19 @@ def making_vegan_makeup_list(response):
             vegan_dict['description'] = response[i]['description']
             vegan_makeup_list.append(vegan_dict)
 
+    with open("./assets/vegan_cosmetics_data.txt", "w") as file: 
+        for item in vegan_makeup_list:
+            for key, value in item.items():
+                string = f"{key}:  {value}\n"
+                file.write("".join(string))
+
+    
+    return vegan_makeup_list   
+
     # for i in vegan_makeup_list:
     #     print(i['name'])
     #     # print('\n\n')
     #     print('*************************************************')     
-    return vegan_makeup_list   
 
 if __name__ == "__main__":
     beauty_api_call()

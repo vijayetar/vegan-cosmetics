@@ -1,0 +1,607 @@
+name:  Lippie Pencil
+price:  5.0
+tag:  ['Vegan', 'cruelty free']
+description:  Lippie Pencil A long-wearing and high-intensity lip pencil that glides on easily and prevents feathering. Many of our Lippie Stix have a coordinating Lippie Pencil designed to compliment it perfectly, but feel free to mix and match!
+name:  Blotted Lip
+price:  5.5
+tag:  ['Vegan', 'cruelty free']
+description:  Blotted Lip Sheer matte lipstick that creates the perfect popsicle pout! Formula is lightweight, matte and buildable for light to medium coverage.
+name:  Lippie Stix
+price:  5.5
+tag:  ['Vegan', 'cruelty free']
+description:  Lippie Stix Formula contains Vitamin E, Mango, Avocado, and Shea butter for added comfort and moisture. None of our Lippie formulas contain any nasty ingredients like Parabens or Sulfates.
+name:  No Filter Foundation
+price:  12.0
+tag:  ['Vegan', 'cruelty free']
+description:  Developed for the Selfie Age, our buildable full coverage, natural matte foundation delivers flawless looking skin from day-to-night. The oil-free, lightweight formula blends smoothly and is easily customizable to create the coverage you want. Build it up or sheer it out, it was developed with innovative soft-blurring pigments to deliver true color while looking and feeling natural. The lockable pump is easy to use and keeps your routine mess-free! As always, 100% cruelty-free and vegan.
+name:  Serum Foundation
+price:  6.7
+tag:  ['Gluten Free', 'Vegan', 'silicone free', 'oil free', 'alcohol free', 'cruelty free', 'water free']
+description:  Serum Foundations are lightweight medium-coverage formulations available in a comprehensive shade range across 21 shades. These foundations offer moderate coverage that looks natural with a very lightweight serum feel. They are very low in viscosity and are dispensed with the supplied pump or with the optional glass dropper available for purchase separately if preferred. 
+name:  Coverage Foundation
+price:  6.9
+tag:  ['Gluten Free', 'Vegan', 'silicone free', 'oil free', 'alcohol free', 'cruelty free', 'water free']
+description:  Coverage Foundations are full-coverage formulations available in a comprehensive shade range across 21 shades. These foundations contain higher pigment levels than our Serum Foundations but still offer a smooth finish that avoids the heavy makeup look that can make skin appear more aged. The texture is that of a lightweight, non-oily cream.
+name:  Multi Purpose Powder - Eye Shadow & Face
+price:  0.0
+tag:  ['Organic', 'Vegan', 'EWG Verified', 'purpicks']
+description:  Our Multi Purpose Pressed Powders may be used as eye shadow, brow powder, eye liner, or for highlighting. Blended with antioxidants from Certified Organic Fruits, Berries &amp; Botanicals*. No gluten derived ingredients. VEGAN. All shades will offer a semi-matte finish, with the exception of White Diamond. White Diamond will offer a shimmery finish. Image one shows shade in Iris. This product is EWG VERIFIED&#x2122; and rated 'CLEAN' in the Think Dirty app! BPA and Phthalate free packaging. Plastic parts of compacts are recyclable.
+name:  Bronzer - loose
+price:  0.0
+tag:  ['Gluten Free', 'Vegan', 'EWG Verified', 'purpicks']
+description:  Caribbean is a multi-purpose shade that is suitable for medium-tan skin tones. This shade may be used as a bronzer, or as a contour shade. <ul><li>Our bronzer has been enhanced with Fruits, Botanicals and Clays for their natural color, fragrance and antioxidant benefits!</li><li>Blended with Certified Organics Fruits and Botanicals</li><li>Formulated with common skin irritants.</li><li>Our bronzer will offer a natural “ultra sheer” semi-matte finish.</li><li>Made without any gluten containing ingredients</li><li>VEGAN!</li><li>Eco Friendly jars!</li></ul>
+name:  Bronzer - pressed
+price:  0.0
+tag:  ['Gluten Free', 'Vegan', 'EWG Verified', 'purpicks']
+description:  Our bronzer has been enhanced with Fruits, Botanicals and Clays for their natural color, fragrance and antioxidant benefits! Blended with Certified Organics Fruits and Botanicals Formulated with common skin irritants. Our bronzer will offer a natural 'ultra sheer' semi-matte finish. Made without any gluten containing ingredients VEGAN! Eco Friendly jars!
+name:  Lip Gloss
+price:  0.0
+tag:  ['Gluten Free', 'Chemical Free', 'Vegan', 'CertClean', 'purpicks']
+description:  For fuller healthier lips! Long lasting colour! This colour is a good choice for any skin tone. It can be made lighter by wiping some off after application.Please note that our Vitamin E is extracted from non-GMO soy bean oil and therefore is gluten-free.
+name:  Lipstick
+price:  0.0
+tag:  ['Gluten Free', 'Vegan', 'CertClean', 'purpicks']
+description:  A pure and creamy lipstick by MarieNatie formulated with organic jojoba, avocado, and coconut oil which are rich in anti-oxidants and have moisturizing benefits. Enriched with naturally derived organic mango and cocoa butters that will soothe, hydrate and regenerate dry lips.
+name:  Gel Liner
+price:  0.0
+tag:  ['Gluten Free', 'Vegan', 'CertClean', 'purpicks']
+description:  This smooth and creamy formula from MarieNatie will provide a silky soft and non-oily finish. It glides on evenly to deliver immediate results.
+name:  Liquid Eye Shadow
+price:  9.95
+tag:  ['Organic', 'Vegan', 'purpicks']
+description:  Our Liquid Edition Eye Shadows have been a real winner since their launch and are a real first of their kind in natural and organic make-up. Whether you're looking for a striking or glamorous look for night time, or something more subtle and natural for wearing during the day, there is a shade for everyone. They dry quickly, and depending on the depth of colour desired, can be blended in on application or left to dry before blending for a more vivid look. Layering is also possible, but however you choose to use these liquid eye shadows they won't gather in crow's feet or fine lines around the eyes. The inclusion of patented beta glucan also means they're perfect for sensitive eyes. Pale Almond is subtle, natural, and perfect for daytime wear, and compliments our Bronzed Hazel liquid eye shadow if a duo tone is desired.
+name:  Saint Cosmetics Bronzer
+price:  30.96
+tag:  ['Canadian', 'Gluten Free', 'Vegan', 'Natural']
+description:  Saint Cosmetics' velvety smooth bronzing formulation gives the skin a soft, healthy and naturally radiant skin.Features:Comes in a range of shades to enhance all complexionsLong- lastingProvides skin with a sun-kissed healthy glowMade in Canada from naturally derived ingredientsChemical Free, Vegan, Gluten Free
+name:  Milani Baked Bronzer 
+price:  9.99
+tag:  ['Vegan']
+description:  Crafted on Italian terracotta tiles, these sunbaked bronzers are all about a swirly, shimmery, streak-free glow. Available in five shades, from soft gold to tantalizingly tan, it can be dusted on eyes, face, body – anywhere and everywhere you want to glow.Features:Multi-purpose powder for eyes, face & bodyEasy to use and streak-free for a perfect radiant finishAttractive, shiny gold compactMirror & brush applicator includedStreak-freeApplication: Glide brush over color and lightly tap off excess powder. Lightly apply to cheeks, forehead, chin and/or nose and blend well for a soft glow. Ingredients: Talc, Mica, Dimethicone, Octyldodecyl Stearoyl Stearate, Polysorbate 20, Magnesium Aluminum Silicate Phenoxyethanol, Sodium Dehydroacetate, Tocopheryl Acetate, Cetearyl Ethylhexanoate, Ethylhexyl Methoxycinnamate, Simmondsia Chinensis (Jojoba) Seed Oil, Acrylamide/Sodium Acryloyldimethyl Taurate Copolymer, Isohexadecane, Polysorbate 80, Sorbitan Stearate, Zea Mays (Corn) Starch, Titanium Dioxide (CI 77891), Iron Oxides (CI 77491, CI 77492, CI 77499). 
+name:  e.l.f. Studio Bronzer
+price:  4.99
+tag:  ['Vegan']
+description:  Create a healthy looking glow all year round!  The sheer soft powders 
+provide the perfect hue of color.  Blend all 4 colors together to 
+achieve a blend of perfection or choose your favorite color or colors to
+ mix, match and blend.Golden Bronzer: An illuminating shimmer that is subtle and radiant.  Ideal for summer or year-round.
+
+					Ingredients: Talc, Paraffinum Liquidum (Mineral Oil), Magnesium Stearate, 
+Hydrogenated Polyisobutene, Sodium Dehydroacetate
+May Contain: Mica, Titanium Dioxide (CI 77891), Iron Oxides (CI 77491, 
+CI 77492, CI 77499), Red 7 Lake (CI 15850), Blue 1 Lake (CI 42090), Red 
+40 Lake (CI 16035)
+
+name:  Saint Cosmetics Blush
+price:  28.96
+tag:  ['Canadian', 'Gluten Free', 'Vegan', 'Natural']
+description:  Create naturally flushed looking cheeks with Saint Cosmetics' blush formulations. Designed to be worn alone or layered for more depth.Features: An ultra-blendable blush with a long-lasting formulaSilky smooth finishCreates a multi-dimensional lookMade in Canada from naturally derived ingredientsChemical Free, Vegan, Gluten Free
+name:  e.l.f. Studio Blush Palette Dark
+price:  9.99
+tag:  ['Vegan']
+description:  This beautiful blush palette holds 4 gorgeous shades to mix and match 
+throughout the year for a custom blended color. Great for contouring, 
+shading, sculpting, and highlighting, these silky smooth blushes create a
+ beautiful pigmented glow. With a mixture of complimentary matte and 
+shimmer finishes, you can achieve a professional look every time.Ingredients: Mica, Talc, Ethylhexyl Palmitate, Silica, Nylon-12, PTFE, Zince Stearate, Dimethicone, Tocopheryl Acetate (Ve).
+MAY CONTAIN: Titanium Dioxide (CI 77891), Iron OXides (CI 77491, 
+CI 77492, CI 77499), Red 7 Lake (CI 15850), Ultramarines (CI 77007), Red
+ 6 Lake (CI 15850), Red 28 Lake (CI 45410). 
+name:  e.l.f. Studio Blush Palette Light
+price:  9.99
+tag:  ['Vegan']
+description:  This beautiful blush palette holds 4 gorgeous shades to mix and match 
+throughout the year for a custom blended color. Great for contouring, 
+shading, sculpting, and highlighting, these silky smooth blushes create a
+ beautiful pigmented glow. With a mixture of complimentary matte and 
+shimmer finishes, you can achieve a professional look every time.Ingredients: Mica, Talc, Ethylhexyl Palmitate, Silica, Nylon-12, PTFE, Zince Stearate, Dimethicone, Tocopheryl Acetate (Ve).
+MAY CONTAIN: Titanium Dioxide (CI 77891), Iron OXides (CI 77491, 
+CI 77492, CI 77499), Red 7 Lake (CI 15850), Ultramarines (CI 77007), Red
+ 6 Lake (CI 15850), Red 28 Lake (CI 45410). 
+name:  Pure Anada Pressed Mineral Cheek Colour Pan
+price:  12.0
+tag:  ['Canadian', 'Non-GMO', 'Gluten Free', 'Vegan', 'Natural']
+description:  Pure Anada is pleased to bring you a lovely selection of convenient pressed mineral colors!    You’ll love the silky texture and longevity of these highly wearable cheek colors.Mineral pigments and organic Jojoba are pressed together to create a natural makeup product. You can have confidence that you are making a beautiful, healthy choice!Pure Anada pressed colors are designed to be inserted into customizable magnetic compacts like the Pure Ananda Reusable Magnetic Compact. Design your own palette!  Shades:Ingredients: Mica (CI 77019), Iron Oxides (CI 77492, CI 77499) Calcium Carbonate, Caprylic Triglyceride *Simmondsia Chinensis (Jojoba seed oil) Ultramarines (CI 77007), Titanium Dioxide (CI 77891) * Certified Organic IngredientVegan, Gluten Free, Non-GMO, Dairy Free, Peanut Free, Natural
+name:  e.l.f. Studio Contouring Blush & Bronzing Powder
+price:  4.99
+tag:  ['Vegan']
+description:  
+					
+					
+					
+					
+					Create a healthy and natural glow all year long with this e.l.f. Studio Contouring Blush & Bronzing Powder.  The Blush highlights the cheeks to add a 
+flush of color, while the Bronzer accents and contours cheekbones for 
+beautiful definition. This convenient compact has just what you need to 
+achieve a gorgeous glow anytime, anywhere.St. Lucia Shade: How to Use: Brush on the "bronze" to the hollow of the cheeks for definition and 
+dust around the face line to create a healthy glow.  Use the "blush" on 
+the apple of the cheeks to create a subtle healthy glow.Ingredients: Talc, Mica, Magnesium Stearate, Ethylhexyl Methoxycinnamate, Paraffinium
+ Liquidum (Mineral Oil), Hydrogenated Polyisobutene, Sodium 
+Dehydroacetate, Iron Oxides (CI 77491 CI 77492 CI 77499), Titanium 
+Dioxide (CI 77981), Red No.40 Lake (CI 16035), Ultramarine Blue (CI 
+77007
+name:  e.l.f. Studio Lip Primer & Plumper
+price:  4.99
+tag:  ['Vegan']
+description:  Achieve longer lasting lip color and sexy plumped lips with e.l.f. Studio Lip Primer & Plumper.  The Primer 
+creates a base for lip color for no budge, no smudge pigment that lasts 
+all day.  The cinnamon scented Plumper enhances your lips with a subtle 
+plumping tingle effect for fuller, larger looking lips.How to Use: 
+					
+					Apply the "prime" to bare lips and
+ blend in to help hold color to the lips all day.  Use the "plump" alone
+ or on top of primer or color to achieve a naturally fuller lip.  Ingredients: Ethylhexyl Palmitate, Talc, Ozokerite, Polyisobutene, Synthetic 
+Fluorphlogopite,  Bis-Diglyceryl polyacyladipate-2, Euphorbia Cerifera 
+(Candelilla) Wax, Ceresin, Copernicia Cerifera (Carnauba) Wax, 
+Microcrystalline Wax (Cera Microcristallina), Tricontanyl PVP           
+           
+May Contain: Titanium Dioxide (CI 77891), Iron Oxides (CI 77491, CI 
+77492, CI 77499)                                                        
+          
+
+
+name:  Sante Lip Duo Contour and Gloss Pencil
+price:  20.49
+tag:  ['Gluten Free', 'Vegan', 'Natural']
+description:  Sante Lip Duo Pencils have two products in one. A lipliner for perfect contours 
+and lipgloss for a sexy finish. They come in trendy colors and have a moisturizing texture.  
+Vegan and gluten-free. Not tested on animals.Colours:
+name:  e.l.f. Studio HD Mattifying Cream Foundation
+price:  9.99
+tag:  ['Vegan']
+description:  This high-definition, oil-free, lightweight foundation is perfect for 
+normal to oily skin types. The cream-to-powder formula minimizes fine 
+lines and leaves a natural, long-lasting, matte finish. Includes a 
+compact sponge for easy application and portable beauty.Shade Range: Ingredients: Ethylhexl Palmitate, Octyldodecanol, Synthetic Wax, Copernicia Cerifera 
+(Carnauba) Wax, Caprylic/Capric Triglyceride, Tridecyl Trimellitate, 
+Mica, Nylon-12, Silica, Triacontanyl PVP, Polyglyceryl-4 Isostearate, 
+Propylparaben, Tocopheryl Acetate MAY CONTAIN: Iron Oxides (CI 
+77491, CI 77492, CI 77499), Manganese Violet (CI 77492), Red No. 33 Lake
+ (CI 17200), Blue No. 1(CI 42090), Yellow No. 5 Lake (CI 19140), 
+Titanium Dioxide (CI 77891), Red No.40 Lake (CI 16035), Chromium 
+Hydroxide Green (CI 77289). 
+name:  Mineral Fusion Sheer Tint Foundation
+price:  37.0
+tag:  ['Gluten Free', 'Vegan', 'Natural']
+description:  Mineral Fusion Sheer Tint Foundation is a lightweight, hydrating foundation with a dewy finish that provides sheer coverage for a perfectly even skin tone.  The blend of Pomegranate, Red Tea, White Tea and Sea Kelp offer age-defying antioxidant protection to defend against free radical damage and give skin a healthy radiance.  This foundation is formulated with only the safest, most gentle ingredients plus the natural UV protection of minerals and skin soothing botanicals. Great for use on all skin types.Features:Sheer coverage for neutral skinFlawless CoverageAge-DefyingSkin SoothingFree of artificial colour or fragranceTalc freeHypo-allergenicCruelty FreeParaben FreePhthalate FreeIngredients: Water, Squalane (Olive), Tridecyl Neopentanoate, Titanium Dioxide, Propylene Glycol Dicaprylate/Dicaprate, Vegetable Glycerin, Cetearyl Alcohol, Polysorbate 80, Glyceryl Stearate SE, Cyclomethicone, Hydrogenated Polyisobutene, Dimethicone Crosspolymer-3, Sorbitol, Triethanolamine, Stearic Acid, Sorbitan Sesquioleate, Cetyl Alcohol, Dimethicone, Laureth-7, Magnesium Aluminum Silicate, Cyclopentasiloxane, Xanthan Gum, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polysorbate 60, Cellulose Gum, PEG-12 Dimethicone, Carthamus Tinctorius (Safflower) Seed Oil, Vitis Vinifera (Grape) Seed Extract, Camellia Sinensis (White Tea) Leaf Extract, Aspalathus Linearis (Rooibos Red Tea) Leaf Extract, Punica Granatum (Pomegranate) Extract, Caprylic/Capric Triglyceride, Laminaria Ochroleuca (Sea Kelp) Extract, Gluconolactone, Sodium Benzoate. MAY CONTAIN (+/-): Iron Oxides.Vegan, Gluten Free
+name:  Dr. Hauschka Foundation
+price:  39.0
+tag:  ['Vegan', 'Natural']
+description:  Dr. Hauschka Foundation features pomegranate essence, macadamia and coconut oil that preserve the moisture 
+content of the skin and offer it protection. Available in five shades, 
+the foundation does not cover the skin but instead balances out 
+unevenness, giving the complexion a smooth, vibrant look.Features: Truly natural and/or organic cosmetics, certified to NATRUE and/or BDIH standardsFree from synthetic fragrances and preservativesFree from mineral oils, parabens, silicone and PEGVeganDermatologically tested for sensitive skinWherever possible, all raw materials come from controlled organic or Demeter cultivation and are recovered under fair conditionsIngredients: Water (Aqua), Alcohol, Simmondsia Chinensis (Jojoba) Seed Oil, Anthyllis Vulneraria Extract, Cocos Nucifera (Coconut) Oil, Caprylic/Capric Triglyceride, Glycerin, Cetearyl Alcohol, Punica Granatum Fruit Extract, Prunus Armeniaca (Apricot) Kernel Oil, Butyrospermum Parkii (Shea) Butter, Macadamia Ternifolia Seed Oil, Daucus Carota Sativa (Carrot) Root Extract, Euphorbia Cerifera (Candelilla) Wax, Fragrance (Parfum), Limonene*, Linalool*, Geraniol*, Citronellol*, Benzyl Benzoate*, Benzyl Salicylate*, Farnesol*, Coumarin*, Citral*, Eugenol*, Benzyl Alcohol*, Bentonite, Xanthan Gum, Sodium Cetearyl Sulfate, Silica. [May contain (+/-) Mica, Iron Oxides (CI 77491, CI 77492, CI 77499), Titanium Dioxide (CI 77891), Ultramarines (CI 77007)].*from natural essential oils 
+name:  e.l.f. Studio Flawless Finish Foundation
+price:  9.99
+tag:  ['Vegan']
+description:  Achieve a flawless complexion with the silky smooth e.l.f. Studio 
+Flawless Finish Foundation. The lightweight and oil-free formula blends 
+in naturally for a beautiful semi-matte finish. This liquid foundation 
+applies easily and lasts all day for visibly brighter and radiant 
+looking skin. Using e.l.f.'s Flawless Finish Foundation not only restores 
+uneven skin textures and tones, but most importantly, the SPF 15 
+protects your skin against harmful sun damage!Shade Range: 
+						
+					
+					ACTIVE INGREDIENTS:  Octyl Salicylate 2%,   Titanium Dioxide 5.5% INACTIVE INGREDIENTS:
+  Water (Aqua), Cyclopentasiloxane, Isododecane, Hydrogenated 
+Polyisobutene, Cetyl PEG/PPG-10/1 Dimethicone, Polyglyceryl-4 
+Isostearate, Polymethyl Methacrylate, Sorbitan Sesquiisostearate, 
+Butylene Glycol, Talc, Dimethicone, Disteardimonium Hectorite, Magnesium
+ Sulfate, Glycerin, Phenoxyethanol, Synthetic Beeswax, Potassium 
+Sorbate, Propylene Carbonate, Boron Nitride, Barium Sulfate, Caprylyl 
+Glycol
+May Contain: Iron Oxides (CI 77491, CI 77492, CI 77499)
+
+					
+				
+name:  e.l.f. Studio Tinted Moisturizer
+price:  4.99
+tag:  ['Vegan']
+description:  Achieve even skin tone 
+and naturally radiant skin with this moisturizing sheer tint of color.  
+The smooth formula enhances your complexion with the nourishing key 
+ingredients Aloe, Cucumber and Vitamins A, C & E.Shades: 
+						
+					
+					ACTIVE: Benzophenone-3, Ethylhexyl Isopalmitate, Titanium Dioxide. 
+INACTIVE: Water, Mineral Oil, Cyclomethicone, C12-15 Alkyl Benzoate, 
+Propylene Glycol, Dimethicone, Steareth-21 Cetearyl Alcohol, 
+Ceteareth-2, Glyceryl Stearate, Xanthan Gum, Methylparaben, 
+Propylparabem, Tocopherol(VE), Retinyl Acetate(VA), Ascorbyk 
+Palmitate(VC), Aloe Barbadensis (Aloe Vera) Leaf Juice, Cucumis Sativus 
+(Cucumber) Fruit Extract, MAY CONTAIN: Iron Oxides (CI 77491, CI 77492, 
+CI 77499), Titanium Dioxide (CI 77891)
+					
+				
+name:  e.l.f. Studio Baked Eyeshadow Trio 
+price:  6.99
+tag:  ['Vegan']
+description:  Three gorgeously coordinated colors come together to create a stunning 
+look. Baked in an oven, these eyeshadows offer rich pigmentation for a 
+beautiful effect. Infused with active key ingredients Jojoba, Rose, 
+Sunflower, Apricot and Grape to nourish and hydrate the skin. The 
+long-lasting and shimmering color can be worn wet for a vibrant effect 
+or dry for sheer pigmentation, offering a variety of gorgeous eye looks!Ingredients: Mica, Talc, Bismuth Oxychloride, 
+Ethylhexyl Palmitate, Paraffinum Liquidum (mineral oil), Dimethicone, 
+Magnesium Aluminum Silicate, Tocopheryl Acetate, Simmondsia Chinensis 
+(Jojoba) Seed Oil, Rosa Canina (Rose Hip) Fruit Oil, Helianthus Annuus 
+(Sunflower) Seed Oil, Prunus Armeniaca (Apricot) Kernel Oil, Vitis 
+Vinifera (Grape) Seed Oil, Phenoxyethanol, Methylparaben. May Contain: 
+Titanium Dioxide (CI 77891), Iron Oxides (CI 77491 , CI 77492 , CI 
+77499), Ultramarine Violet (CI 77077), Manganese Violet (CI 77742), 
+Ferric Ferrocyanide (CI 77510), Tin Oxide (CI 77861), Yellow No.5 Lake 
+(CI 19140), Red No.40 Lake (CI 16035), Blue No.1 Lake (CI 42090). 
+name:  Sante Eyeshadow Trio
+price:  24.49
+tag:  ['Gluten Free', 'Vegan', 'Natural']
+description:  Sante Eyeshadow Trios each have three complementary shades for your lid,
+ crease and highlight. Plus they are formulated with organic jojoba and 
+chamomile. Vegan and gluten-free. Not 
+tested on animals. 								
+				
+						
+													
+				
+						
+					
+name:  e.l.f. Essential Little Black Beauty Book Eye Edition
+price:  9.99
+tag:  ['Vegan']
+description:  This convenient 48-piece makeup collection for your eyes allows you to 
+have your Little Black Beauty Book readily available anytime, anywhere! 
+Keep the Beauty Book in your purse, at home or in the office so you can 
+be your own makeup artist whenever, wherever. This full assortment of 48
+ eyeshadow colors allows you to create a look that reflects your 
+personal style for any occasion. The small, sleek design is great for 
+on-the-go beauty touch ups. Each book includes: 48 gorgeous eyeshadow 
+shades, a built-in mirror, and 1 dual-ended applicator.Ingredients: Talc, Mica, Zinc Stearate, Kaolin,
+ Paraffinium Liquidum(Mineral Oil), Petrolatum, Bis-Diglyceryl 
+Polyacyladipate-2, Methylparaben, Propylparaben. May Contain: Iron 
+Oxides (CI 77491 , CI 77492 , CI 77499), Manganese Violet (CI 77742), 
+Mica (CI 77019), Titanium Dioxide (CI 77891), Yellow No.5 Lake (CI 
+19140), Red No.40 Lake (CI 16035), Ultramarine Violet (CI 77077), Blue 
+No.1 Lake (CI 42090) 
+					
+				
+name:  Pacifica Super Powder Supernatural Eye Shadow Trio
+price:  14.0
+tag:  ['Vegan', 'Natural']
+description:  Pacifica Super Powder Supernatural Eye Shadow Trio Breathless, Glowing, Sunset is an innovative natural eye shadow that applies like a cream and sets to a powder, allowing for a smooth, velvety application that blends easy and provides a long-lasting, creaseless, flawless finish. Anti-aging ingredients including jojoba and argan oils.Features:100% veganCruelty-freeFormulated witout carmine, FD&C color, parabens and petroleumIngredients: Simmondsia chinensis (jojoba) seed oil, euphoriba cerifera (candelill) wax, copernicia prunifera (carnauba) wax, butyrospermum parkii (shea butter), oryza sativa (rice starch), helianthus annuus (sunflower) seed oil, argania spinosa (argan) kernal oil, tocopherol (vitamin e), kaolin. May contain: titanium dioxides (ci 77492, ci 77491, ci 77499), ultramarines, manganese violet.
+name:  e.l.f. Studio Baked Eyeshadow Trio
+price:  6.99
+tag:  ['Vegan']
+description:  Three gorgeously coordinated colors come together to create a stunning 
+look. Baked in an oven, these eyeshadows offer rich pigmentation for a 
+beautiful effect. Infused with active key ingredients Jojoba, Rose, 
+Sunflower, Apricot and Grape to nourish and hydrate the skin. The 
+long-lasting and shimmering color can be worn wet for a vibrant effect 
+or dry for sheer pigmentation, offering a variety of gorgeous eye looks!Ingredients: Mica, Talc, Bismuth Oxychloride, 
+Ethylhexyl Palmitate, Paraffinum Liquidum (mineral oil), Dimethicone, 
+Magnesium Aluminum Silicate, Tocopheryl Acetate, Simmondsia Chinensis 
+(Jojoba) Seed Oil, Rosa Canina (Rose Hip) Fruit Oil, Helianthus Annuus 
+(Sunflower) Seed Oil, Prunus Armeniaca (Apricot) Kernel Oil, Vitis 
+Vinifera (Grape) Seed Oil, Phenoxyethanol, Methylparaben. May Contain: 
+Titanium Dioxide (CI 77891), Iron Oxides (CI 77491 , CI 77492 , CI 
+77499), Ultramarine Violet (CI 77077), Manganese Violet (CI 77742), 
+Ferric Ferrocyanide (CI 77510), Tin Oxide (CI 77861), Yellow No.5 Lake 
+(CI 19140), Red No.40 Lake (CI 16035), Blue No.1 Lake (CI 42090). 
+					
+				
+name:  Pacifica Mystical Supernatural Eye Shadow Palette
+price:  28.0
+tag:  ['Vegan', 'Natural']
+description:  An incredibly innovative formula that pushes mineral makeup color to new
+ bounds.  Rich, lasting, ceaseless eye shadows are infused with coconut 
+water for a velvety, cream-like finish.  These four highly pigmented 
+mineral satin makeup and iridescent shades are specially curated are 
+designed to brighten the eyes and make you look gorgeous and awake.  
+(Even when you did not get a good night's sleep!) Includes 4 Beautiful Shades:Opal - Opalescent pinkish-white perfect for highlighting and creating a natural look.  Use on brow bones, inner eye and even as a linerMoonbeam - Pearlescent greyish moody violet to use on lids or create a subtle smoky eyeCelestial - Creamy dreamy beige with a little bright pearl ideal for lids and highlightsStargazer - Heavenly hot blue-violet to smudge, smoke or line your eyesFeatures: Coconut infused long lasting eye shadows that apply easy with a velvety finishNatural mineral colorsRecyclable packaging100% vegan, No animal ingredients or testingFREE OF PARABENS, PHTHALATES, PETROLEUM, TALC, FD&C COLORS and other ingredients you don't want on your skinIngredients:Opal Ingredients: Mica, Zinc Stearate, Ethylhexyl Stearate(Plant Source), , Cocos Nucifera (Coconut) Oil, Carthamus Tinctorius(Safflower) Seed Oil, Macrocystis, Pyrifera (Brown Kelp) Extract, Panax (Ginseng) Root Extract. May Contain: Silica, Dimethicone, Calcium Sodium Borosilicate, Tin Oxide, Titanium Dioxide, CI 7789, Ferric Ferrocyanide  CI77510, Iron Oxides C1 77491,  CI 77742, C177499.Moonbeam Ingredients: Mica, Zinc Stearate, Ethylhexyl Stearate(Plant Source), , Cocos Nucifera (Coconut) Oil, Carthamus Tinctorius(Safflower) Seed Oil, Macrocystis, Pyrifera (Brown Kelp) Extract, Panax (Ginseng) Root Extract. May Contain: Silica, Dimethicone, Calcium Sodium Borosilicate, Tin Oxide, Titanium Dioxide, CI 7789, Ferric Ferrocyanide  CI77510, Iron Oxides C1 77491,  CI 77742, C177499. Celestial Ingredients: Mica, Zinc Stearate, Ethylhexyl Stearate(Plant Source), , Cocos Nucifera (Coconut) Oil, Carthamus Tinctorius(Safflower) Seed Oil, Macrocystis, Pyrifera (Brown Kelp) Extract, Panax (Ginseng) Root Extract. May Contain: Silica, Dimethicone, Calcium Sodium Borosilicate, Tin Oxide, Titanium Dioxide, CI 7789, Ferric Ferrocyanide  CI77510, Iron Oxides C1 77491,  CI 77742, C177499.Stargazer Ingredients: Mica, Zinc Stearate, Ethylhexyl Stearate(Plant Source), , Cocos Nucifera (Coconut) Oil, Carthamus Tinctorius(Safflower) Seed Oil, Macrocystis, Pyrifera (Brown Kelp) Extract, Panax (Ginseng) Root Extract. May Contain: Silica, Dimethicone, Calcium Sodium Borosilicate, Tin Oxide, Titanium Dioxide, CI 7789, Ferric Ferrocyanide  CI77510, Iron Oxides C1 77491,  CI 77742, C177499.
+name:  e.l.f. Studio Prism Eyeshadow
+price:  13.99
+tag:  ['Vegan']
+description:  These ultra-silky and lustrous eyeshadows look like a powder but feel like a cream, allowing for a smooth and flawless application. Use to contour, line, and highlight for a radiant finish. The luminous, shimmery formula creates a gorgeous range of looks for both day and night. 
+name:  Pacifica Enlighten Eye Brightening Shadow Palette
+price:  28.0
+tag:  ['Gluten Free', 'Vegan', 'Natural']
+description:  An incredibly innovative formula that pushes mineral makeup color to new bounds.  Rich, lasting, ceaseless eye shadows are infused with coconut water for a velvety, cream-like finish.  These four highly pigmented mineral satin makeup and iridescent shades are specially curated are designed to brighten the eyes and make you look gorgeous and awake.  (Even when you did not get a good night's sleep!) Includes 4 Beautiful Shades:Urchin - An iridescent jeweled purple with gold tones.  Use dry as a shadow, wet as a liner.  Perfect for smudging and a great substitute for black.Golden - A perfect gold with just the right amount of shimmer.  Use on the lids or line the eyes.Coral Sand - A satin lid base or highlighter. Skinny Dip - Matte nude base, a universal brightener.  Perfect for using on the inner eye to add brightness.Formulated without: Phthalates, parabens, carmine, beeswax, lanolin, mineral oils, propylene glycol, petroleum and FD& C colors (along with other nasties you do not want on your skin).  No animal testing. Gluten-free, 100% vegan and cruelty-free.Ingredients: Coral Sand Ingredients: Mica, Zinc Stearate, Ethylhexyl Stearate(Plant Source), , Cocos Nucifera (Coconut) Oil, Carthamus Tinctorius(Safflower) Seed Oil, Macrocystis, Pyrifera (Brown Kelp) Extract, Panax (Ginseng) Root Extract. May Contain: Silica, Dimethicone, Calcium Sodium Borosilicate, Tin Oxide, Titanium Dioxide, CI 7789, Ferric Ferrocyanide CI77510, Iron Oxides C1 77491, CI 77742, C177499.Skinny Dip Ingredients: Mica, Zinc Stearate, Ethylhexyl Stearate(Plant Source), , Cocos Nucifera (Coconut) Oil, Carthamus Tinctorius(Safflower) Seed Oil, Macrocystis, Pyrifera (Brown Kelp) Extract, Panax (Ginseng) Root Extract. May Contain: Silica, Dimethicone, Calcium Sodium Borosilicate, Tin Oxide, Titanium Dioxide, CI 7789, Ferric Ferrocyanide CI77510, Iron Oxides C1 77491, CI 77742, C177499.Urchin Ingredients: Mica, Zinc Stearate, Ethylhexyl Stearate(Plant Source), , Cocos Nucifera (Coconut) Oil, Carthamus Tinctorius(Safflower) Seed Oil, Macrocystis, Pyrifera (Brown Kelp) Extract, Panax (Ginseng) Root Extract. May Contain: Silica, Dimethicone, Calcium Sodium Borosilicate, Tin Oxide, Titanium Dioxide, CI 7789, Ferric Ferrocyanide CI77510, Iron Oxides C1 77491, CI 77742, C177499.Golden Ingredients: Mica, Zinc Stearate, Ethylhexyl Stearate(Plant Source), , Cocos Nucifera (Coconut) Oil, Carthamus Tinctorius(Safflower) Seed Oil, Macrocystis, Pyrifera (Brown Kelp) Extract, Panax (Ginseng) Root Extract. May Contain: Silica, Dimethicone, Calcium Sodium Borosilicate, Tin Oxide, Titanium Dioxide, CI 7789, Ferric Ferrocyanide CI77510, Iron Oxides C1 77491, CI 77742, C177499.
+name:  Pacifica Radiant Shimmer Highlighting Creams For Eyes Lips Face
+price:  28.0
+tag:  ['Gluten Free', 'Vegan', 'Natural']
+description:  You will absolutely LOVE these Radiant Shimmer Coconut Multiples! Coconut infused multi-use creamy colors for cheeks, eyes, lips and even your body are housed in a magically decorated palette. Create shimmering highlights, glowing illumination and beautiful contours. Natural mineral makeup formula blends effortlessly and can be used sheer, layered or built-up for more drama. Go ahead and play all you want, these mineral makeup colors are full of skin-loving naturals.Includes 3 Shimmering Shades:Bronzed: Perfectly glowing sun-kissed color with golden shimmer shadowIsland Rose: shimmering, radiant dewy pink shadowMoonlit: Iridescent pale shades of moon-kissed shimmerFeatures:No animal testingGluten-free100% vegan and cruelty-freeFormulated without: Phthalates, parabens, carmine, beeswax, lanolin, mineral oils, propylene glycol, petroleum and FD& C colors (along with other nasties you do not want on your skin). Ingredients: Ethylhexyl Palmitate, Silica, Mica,  Caprylic/Capric Triglyceride,Helianthus Annuus (Sunflower) Seed Oil, Ozokerite, Copernicia Cerifera(Carnauba) Wax, Euphorbia Cerifera (Candelilla) Wax, Cetyl Palmitate, Carthamus Tinctorius (Safflower) Seedoil, Parfum (All Natural), Tocopheryl Acetate (Vitamin E), Macrocystis Pyrifera (Brown Kelp) Extract,Cocos Nucifera (Coconut) Fruit Extract, Tin Oxide. Titanium Dioxide Ci 77891, Iron Oxides Ci 77941
+name:  Pure Anada Pressed Mineral Eye Color Pan
+price:  8.0
+tag:  ['Canadian', 'Non-GMO', 'Gluten Free', 'Vegan', 'Natural']
+description:  Pure Anada is pleased to bring you a lovely selection of convenient pressed mineral colors!   You’ll love the silky texture and longevity of these very wearable shades.Mineral pigments and organic Jojoba are pressed together to create a natural makeup product. You can have confidence that you are making a beautiful, healthy choice!Pure Anada pressed colors are designed to be inserted into customizable magnetic compacts like the Pure Ananda Reusable Magnetic Compact. Design your own palette! What look do you go for: the natural bronzed babe, tropical brights, or classic beauty? Try all three with this get the look with natural makeup piece found on our blog, The Well! Shadow Finishes: Demi-Matte shadows are a combination of opaque matte minerals and luminous satin mica.  This provides both true color and a light-reflecting finish.Matte shadows are soft, silky shadows that do not exude any sheen whatsoever.Shades: Ingredients: Mica (CI 77019), Iron Oxides (CI 77492, CI 77499) Calcium Carbonate, Caprylic Triglyceride *Simmondsia Chinensis (Jojoba seed oil) Ultramarines (CI 77007), Titanium Dioxide (CI 77891) * Certified Organic IngredientVegan, Gluten Free, Non-GMO, Dairy Free, Peanut Free, Natural
+name:  Pacifica Natural Minerals Solar Complete Color Mineral Palette
+price:  60.0
+tag:  ['Vegan', 'Natural']
+description:  All you need to look naturally gorgeous!  The Solar Complete Mineral Palette is a full set of eye shadows, blush, bronzer and coconut highlighters all in one beautiful, recyclable palette.  Each natural mineral shadow is highly pigmented and so smooth it applies like a cream.  Plus the new blush and bronzer are infused with coconut, apply easily and can be layered to build color.  The coconut highlighters are in two new shades as well as the popular Island Rose and can be used on cheekbones, eye brow bones, and even the lips to provide the perfect amount of natural brightness.  With a variety of colors, many looks are achievable so you can be natural by day or smokin' hot by night.Colours Included:Eye shades: Neptune, Glow, Treasure, Coral, Mermaid Aqua, SandalwoodCheek shades: Flushed, BronzedHighlighter shades: Gold Dust, Island Rose, Pink Opal
+name:  Pacifica Natural Eye Pencil
+price:  16.0
+tag:  ['Gluten Free', 'Vegan', 'Natural']
+description:  Pacifica Natural Eye Pencil is a waterproof, buttery smooth eye pencil that glides on easily to avoid pulling on the delicate eye area. Color glides on and stays put for those perfectly defined eyes. Whether it be a very fine line or the ever glamorous cat-eye, these pencils provide the right amount of saturated color to make your eyes pop.Formulated without: Animal ingredients (including carmine, beeswax and 
+lanolin), animal testing, FD&C colors, mineral oil, parabens, 
+phthalates, petroleum, propylene glycol, SLS, gluten, peanut oil and 
+other ingredients you don’t want on your skin.Ingredients: Gun Metal (pewter) - hydrogenated simmondsia chinensis seed oil, mica, caprylic / capric triglycerides, hydrogenated vegetable oil, simmondsia chinensis seed oil, butyrospermum parkii butter, titanium dioxide CI 77891, canola oil, sclerocarya birrea seed oil, iron oxide CI 77499, euphorbia cerifera cera, glyceryl caprylate, copernicia cerifera cera, tocopherol, helianthus annuus seed oil, ascorbyl palmitateBare (Nude) - titanium dioxide CI 77891, hydrogenated simmondsia chinensis seed oil, simmondsia chinensis seed oil, caprylic / capric triglycerides, hydrogenated vegetable oil, mica, butyrospermum parkii butter, canola oil, sclerocarya birrea seed oil, iron oxide CI 77492, euphorbia cerifera cera, glyceryl caprylate, copernicia cerifera cera, iron oxide CI 77491, iron oxide CI 77499, tocopherol, ascorbyl palmitate.Fringe (brown) - hydrogenated simmondsia chinensis seed oil, iron oxide CI 77499, mica, iron oxide CI 77491, iron oxide CI 77492, hydrogenated vegetable oil, caprylic / capric triglyceride, simmondsia chinensis seed oil, butyrospermum parkii butter, canola oil, sclerocarya birrea seed oil, candelilla cerifera cera, glyceryl caprylate, copernicia cerifera cera, tocopherol, helianthus annuus seed oil, ascorbyl palmitate.Jet (black) - iron oxide CI 77499, hydrogenated simmondsia chinenesis seed oil, caprylic / capric triglyceride, simmondsia chinenesis seed oil, hydrogenated vegetable oil, butyrospermum parkii butter, sclerocarya birrea seed oil, mica, candelilla cerifera cera, glyceryl caprylate, copernicia cerifera cera, tocopherol, helianthus annuus seed oil, ascorbyl palmitate
+name:  Sante Kajal Eyeliner Pencil
+price:  17.29
+tag:  ['Gluten Free', 'Vegan', 'Natural']
+description:  Sante gentle eyeliner pencils have a wonderful texture. They are perfectly suitable
+ for use on the inner eyelid. Or can be used blended with a sponge to create a 
+sophisticated effect and make the color last longer.  Vegan and 
+gluten-free. Not tested on animals.Ingredients: Caprylic/Capric Triglyceride, Ricinus Communis 
+(Castor) Seed Oil*, Hydrogenated Palm Kernel Glycerides, Copernica 
+Cerifera (Carnauba) Wax, Hydrogenated Castor O il, Euphorbia Cerifera 
+(Candelilla) Wax, Cera Alba (Beeswax), Hydrogenated Palm Glycerides, 
+Ascorbyl Palmitate, Tocopherol, Mica, [+/-CI 77007, CI 77288, CI 77491, 
+CI 77492, CI 77499, CI 77510, CI 77742, CI 77891]
+name:  Earth Lab Vegan Mineral Eye Pencil
+price:  18.0
+tag:  ['Canadian', 'Vegan', 'Natural']
+description:  These natural minerals eye pencils are made fresh to order. They
+ are super soft, and once they're on they do not run or smudge easily. 
+That said - they do wash off easily as well!Ingredients: Jojoba Oil, Castor Oil, Carnauba Wax, 
+Candelillia Wax, Ozokerite Wax, Vitamin E, Mica, and Iron Oxides
+Mineral pencils expire within 6 months of purchase.
+name:  Zorah Liquid Liner
+price:  24.0
+tag:  ['Canadian', 'Gluten Free', 'Vegan', 'Organic', 'Natural']
+description:  Zorah Liquid Liner gives you 12 hours of long-lasting intense color, is transfer-free (leaves no trace on crease above the eyelid) and has Pure Light Capture® minerals that deliver color and radiance. Silky lines and refreshingly light, Pure Argan eyeliner leaves a weightless feel on the eyelids.What look do you go for: the natural bronzed babe, tropical brights, or classic beauty? Try all three with this get the look with natural makeup piece found on our blog, The Well! Directions: Lightly trace the lash line. Repeat with a second layer to intensify. Make small dots from the outside working inward. Wait 3 seconds before opening eye so as to avoid streaking. Repeat line if necessary.Ingredients: Aqua, Hydrolyzed Corn Starch, Glyceryl Stearate Citrate, Argania Spinosa Kernel Oil*, Cucurbita Pepo (Pumpkin) Seed Oil*, Glycerin,  Silica, Copernicia Cerifera (Carnauba) Wax*, Hectorite, Sodium Phytate, Sodium Citrate, Benzyl Alcohol, Salicylic Acid, Sorbic Acid, Dehydroacetic Acid. [+/-(peut contenir/may contain) Iron Oxides,Mica, Ultramarines, Bismuth Oxychloride.]Tested dermatologically and ophthalmologically.Certified by Ecocert Greenlife: 98% of the total ingredients are from 
+natural origin, 5% of total ingredients are from organic farming
+name:  Pacifica Natural Minerals Smolder Eye Lining Gel
+price:  27.96
+tag:  ['Vegan', 'Natural']
+description:  Pacifica Natural Minerals Smolder Eye Lining Gel stands above the rest. It's not
+ waxy or tacky but has a creamy finish that can be smudged or left 
+sharp. The smooth application allows you to rock a natural to smoky 
+dramatic look with long-lasting natural mineral color. Line the eyes 
+effortlessly or use as an allover creaseless shadow. Can be worn sheer 
+or layered for more intensity. Gently line both upper and/or lower eye 
+lid with a lining brush for a dramatic effect, or simply use your finger
+ to smudge the edges for your sexy smolder. A product that is a true 
+multi-tasker. 100% vegan.In three full depth shades: Anchor: (bronzed brown)Midnight: (deep navy)Tahitian Pearl: (pearlized green/ grey with gold dust)Features:100% vegan, no animal ingredients or testingA product that is a true multi-taskerThe natural color can be layered for a more dramatic lookIngredients:
+ Caprylic/Capric Trglyceride (Coconut Source), Cyclopentasiloxane, Mica,
+ Tribehenin (Plant Source), Cocos Nucifera (Coconut) Oil, Cocos Nucifera
+ (Coconut) Water,  Withania Somnifera Root Extract, C18-36 Acid Glycol 
+Ester(Plant Source), Phenoxyethanol.  May Contain: Calcium Sodium 
+Borosilicate, Tin Oxide, 77891 Iron Oxides C1 77491, C1 77492, C1 77499,
+ Ultramarines C1 77007, Titanium Dioxide C1 77891.
+name:  Suncoat Sugar-based Natural Liquid Eyeliner
+price:  16.99
+tag:  ['Canadian', 'Vegan', 'Natural']
+description:  This natural liquid eyeliner is made with natural sugar-based 
+biopolymer, not synthetic plastics such as PVP (polyvinyl pyrrolidone 
+polymer) and acrylic copolymer. Colored with earth pigments and enriched
+ with vitamin E. This is a superior alternative for your sensitive eyes 
+and our environment!Features: Natural and vegan ingredients, readily biodegradableStays on all day long, will not smear or smudgeKind to sensitive eyesRemove with soap and waterThe wand has a rubber tip instead of hairbrush, much easier to apply. It offers precise control for fine linesIngredients: Aqua
+ (water), kaolin clay, glycerin, hydrolyzed Zea mays (corn) starch 
+(natural multi-sugar resin), lecithin, Citrus grandis (grapefruit) seed 
+extract, tocopherol (vitamin E), citric acid, iron oxides, mica, 
+titanium dioxide.
+name:  e.l.f. Studio Eyeliner & Shadow Stick 
+price:  4.99
+tag:  ['Vegan']
+description:  Achieve color intensity for your eyes with twist-up ease - no sharpening
+ required!  Glide on the soft gel liner side to create dramatic 
+definition to the eyes.  The light-reflecting pigments help line the eye
+ subtly but intensely for a fuller more enhanced effect.  Use the smooth
+ glide shadow stick side for soft highlighting color on the eyes to 
+complement the liner for a polished and finished look. Perfect for 
+creating an easy smoky eye!Eyeliner Ingredient: Synthetic Beeswax, Copernicia Cerifera (Carnauba) 
+Wax, Ceresin Wax, Bis-Diglyceryl Polyacyladipate-2, Phenyl Trimethicone,
+ Cyclomethicone, Mica, Trimethylsiloxysilicate, BHT, Benzyl Alcohol, 
+Methylchloroisothiazolinone, Methylisothiazolinone
+
+May Contain:Iron Oxides (CI 77491 CI 77492 CI 77499), Titanium Dioxide (CI77891)
+
+Shadow Ingredient: Paraffin Wax, Microcrystalline Wax, Copernicia 
+Cerifera (Carnauba) Wax, Castor Oil, Bis-Diglyceryl Polyacyladipate-2, 
+Petrolatum, Isopropyl Palmitate, BHT, Benzyl Alcohol, 
+Methylchloroisothiazolinone, Methylisothiazolinone 
+
+May Contain:Iron Oxides (CI 77491 CI 77492 CI 77499), Titanium Dioxide (CI77891)
+
+name:  e.l.f. Studio Precision Liquid Eyeliner
+price:  4.99
+tag:  ['Vegan']
+description:  This long-lasting e.l.f. Studio Precision Liquid Eyeliner formula has pigment rich 
+color that glides on smoothly for defined and precise lines. Features a 
+tapered brush design to create thin or bold lines for a custom look. Try
+ a winged-eyeliner look and unleash your inner retro diva!Ingredients: Water (Aqua), Acrylates Copolymer, Iron Oxides (CI 77491), Black No. 2 
+(CI 77266), PEG-40 Hydrogenated Castor Oil, Polysorbate 20, Propylene 
+Glycol, Xanthan Gum, Phenoxyethanol, Methylparaben, Ethylparaben, 
+Butylparaben, Propylparaben, Isobutylparaben.
+name:  e.l.f. Studio Eye Primer & Liner Sealer
+price:  4.99
+tag:  ['Vegan']
+description:  
+					
+					
+					
+					
+					Now you can have
+ your eye makeup lasting longer for no fuss no budge color with this e.l.f. Studio Eye Primer & Liner Sealer.The Prime side sets your eyeshadow in so your color won't fade, 
+bleed or crease.  The Liner side transforms your favorite eye shadow 
+into a waterproof, smudge-proof liquid liner with this unique clear 
+liquid and built-in felt tip precision eyeliner brush. Primer Colour: How to Use: Use the "prime" side to create a base for your eyeshadow. Apply to the eyelid and blend in.Use the "seal" side and mix your favorite eyeshadow color in with the brush and apply to the lash line as a liner.For best results wipe off and clean applicator before closing.Remove with eye makeup remover.Ingredients: 
+						
+					
+					Eye Primer Ingredients: Paraffinum
+ Liquidum (Mineral Oil), Mica, Talc, Bis-Diglyceryl Polyacyladipate-2, 
+Ozokerite, Euphorbia Cerifera (Candelilla) Wax, Methylisothiazolinone, 
+Caprylyl Glycol
+May Contain: Iron Oxides (CI 77491, CI 77492, CI 77499), Titanium 
+Dioxide (CI 77891)
+
+Liner Sealer Ingredients: Water (Aqua), Acrylates/Octylacrylamide 
+Copolymer, Propylene Glycol, Benzyl Alcohol, 
+Methylchloroisothiazolinone, Methylisothiazolinone
+
+					
+				
+name:  e.l.f. Studio Cream Eyeliner
+price:  4.99
+tag:  ['Vegan']
+description:  e.l.f. Studio Cream Eyeliner's creamy formula creates smooth lines that are defined and precise.  
+Smudge-proof, budge-proof and water-resistant coverage for all day wear 
+to combat against sweat, tears or rain!  Achieve thin or bold lines with
+ ease.  Eyeliner Brush included.Ingredients: 
+						
+					
+					Isododecane, Hydrogenated 
+Polyisobutene, Polybutene, Polyethylene, Barium Sulfate, Cyclomethicone,
+ Disteardimonium Hectorite, Polyglyceryl-4 Isostearate, Propylene 
+Carbonate, Iron Oxides (CI 77491, CI 77492, CI 77499), Titanium Dioxide 
+(CI77891), Red No.40 Lake (CI 16035), Mica (CI 77019), Blue No.1 Lake 
+(CI 42090), Ferric Ferrocyanide (CI 77510), Ultramarine Violet (CI77077)
+name:  Moov Cosmetics St. Tropez Collection
+price:  14.99
+tag:  ['Canadian', 'Dairy Free', 'Non-GMO', 'Sugar Free', 'Fair Trade', 'Gluten Free', 'Vegan', 'Natural']
+description:  The Moov Cosmetics St. Tropez Collection is a vegan nail colour that is perfect collection of shades that will take you from day to day.Features:VeganLonger lasting wearCreamy applicationDirections: Apply two coats, best results with Moov 2-in-1 Prime & Prep application.Ingredients: Butyl Acetate, Ethyl Acetate, Nitrocellulose, Adipic Acid/Neopentyl, Gloycol/Trimellitic Anhydride, Copolymer, Tributyl Citrate, Isopropyl Alcohol, Strearalkonium Bentonite, Acrylates Copolymer, Silica,Benzophenone-1, Trimethylpentanediyl DibenzoateNatural, Vegan, Gluten Free, Fair Trade, Sugar Free, Non-GMO, Dairy Free
+name:  Moov Cosmetics Caribbean Wedding Collection
+price:  14.99
+tag:  ['Canadian', 'Dairy Free', 'Non-GMO', 'Sugar Free', 'Fair Trade', 'Gluten Free', 'Vegan', 'Natural']
+description:  The Moov Cosmetics Caribbean Wedding Collection is a vegan nail colour that has the perfect soft pastel shades for that romantic getaway.Features:VeganLonger lasting wearCreamy applicationDirections: Apply two coats, best results with Moov 2-in-1 Prime & Prep application.Ingredients: Butyl Acetate, Ethyl Acetate, Nitrocellulose, Adipic Acid/Neopentyl, Gloycol/Trimellitic Anhydride, Copolymer, Tributyl Citrate, Isopropyl Alcohol, Strearalkonium Bentonite, Acrylates Copolymer, Silica,Benzophenone-1, Trimethylpentanediyl DibenzoateNatural, Vegan, Gluten Free, Fair Trade, Sugar Free, Non-GMO, Dairy Free
+name:  Misa Nail Laquer
+price:  9.39
+tag:  ['Vegan']
+description:  Misa's original nail lacquer formula was developed to meet the product requirements of demanding nail technicians. Each lacquer is properly balanced with resin, plasticizer and nitrocellulose to provide a durable film that offers high gloss, exceptional wear and maximum protection for the nail.The lacquers provide durability for the ultimate in chip-free results, with each lacquer offering a carefully balanced blend of film formers that are not adversely affected when exposed to water or detergents. The formula is nonfading with lasting color fidelity over time, as the use of UV absorbers helps maintain the true colors. The lacquers maintain an excellent shelf life, with a formula that prevents pigment migration, striation, settling and syneresis over longer periods of time than most other nail enamel formulas. And, as we guarantee, the chip-resistant polishes promise superior wear and exceptional gloss retention, while helping to condition, protect, strengthen and reinforce the natural nail.
+name:  Moov Cosmetics Home Grown Canuck Collection
+price:  14.99
+tag:  ['Canadian', 'Dairy Free', 'Non-GMO', 'Sugar Free', 'Fair Trade', 'Gluten Free', 'Vegan', 'Natural']
+description:  The Moov Cosmetics Home Grown Canuck Collection is a vegan nail colour that has a fun representation of shades from East to West.Features:VeganLonger lasting wearCreamy applicationDirections: Apply two coats, best results with Moov 2-in-1 Prime & Prep application.Ingredients: Butyl Acetate, Ethyl Acetate, Nitrocellulose, Adipic Acid/Neopentyl, Gloycol/Trimellitic Anhydride, Copolymer, Tributyl Citrate, Isopropyl Alcohol, Strearalkonium Bentonite, Acrylates Copolymer, Silica,Benzophenone-1, Trimethylpentanediyl DibenzoateNatural, Vegan, Gluten Free, Fair Trade, Sugar Free, Non-GMO, Dairy Free
+name:  Pacifica 7 Free Nail Polish Set - Blue
+price:  21.5
+tag:  ['Vegan']
+description:  Pacifica's new 7 Free Nail Polish is long lasting and void of many chemicals that one would find in traditional nail polish. These amazing vibrant colors go on smooth and stay put. In addition, Pacifica has added a custom wide 100% vegan brush for easier application.Features: Dark Desert Highway1972 Pool PartyDriftIngredients: Butyl Acetate, Ethyl Acetate, Nitrocellulose, Adipic Acid/Neopentyl Glycol/Trimellitic Anhydride Copolymer, Acetyl Tributyl Citrate, Isopropyl Alcohol, Styrene/Acrylates Copolymer, Stearalkonium Bentonite, n-Butyl Alcohol, Benzophenone-1, Silica, Alumina, Trimethylpentanediyl Dibenzoate, Polyvinyl Butyral MAY CONTAIN (+/-): Aluminum Powder (CI 77000), Oxides (CI77499 / CI 77491), Red 34 Lake (CI 15880), Red 6 Lake (CI 15850), Red 7 Lake (CI 15850), Yellow 5 Lake (CI 19140), Ferric Ammonium Ferrocyanide (CI 77510), Mica (CI 77019), Blue 1 (CI 42090), Yellow 11 (CI 47000), Titanium
+name:  7 Free Nail Polish Set - Red
+price:  21.5
+tag:  ['Vegan']
+description:  Pacifica's new 7 Free Nail Polish is long lasting and void of many chemicals that one would find in traditional nail polish. These amazing vibrant colors go on smooth and stay put. In addition, Pacifica has added a custom wide 100% vegan brush for easier application.Colours Included: Blushing BunniesRed Red WineCinnamon GirlIngredients: Butyl Acetate, Ethyl Acetate, Nitrocellulose, Adipic Acid/Neopentyl Glycol/Trimellitic Anhydride Copolymer, Acetyl Tributyl Citrate, Isopropyl Alcohol, Styrene/Acrylates Copolymer, Stearalkonium Bentonite, n-Butyl Alcohol, Benzophenone-1, Silica, Alumina, Trimethylpentanediyl Dibenzoate, Polyvinyl Butyral MAY CONTAIN (+/-): Aluminum Powder (CI 77000), Oxides (CI77499 / CI 77491), Red 34 Lake (CI 15880), Red 6 Lake (CI 15850), Red 7 Lake (CI 15850), Yellow 5 Lake (CI 19140), Ferric Ammonium Ferrocyanide (CI 77510), Mica (CI 77019), Blue 1 (CI 42090), Yellow 11 (CI 47000), Titanium
+name:  butter LONDON Patent Shine 10x Nail Laquer
+price:  22.0
+tag:  ['Vegan', 'Natural']
+description:  Butter London's Patent Shine 10x innovative 10-in-1 formula is loaded with ingredients proven to promote brighter, stronger, healthier nails in classic, creamy, wearable shades for your best-dressed nails.10 Benefits:Up to 10 day wearChip resistantFull colour coverageGel-like cushion finish and shineFade-resistantProtectSmoothStrengthenBrighten7 Free - Butter London does not add formaldehyde, formaldehyde resin, toluene, DBP, camphor, xylene, or ethyl tosalimide to its nail product formulaInstructions: Apply one coat of basecoat to clean, dry nails. Follow with your favorite Butter London Patent Shine 10X Nail Lacquer. Apply one coat of topcoat for a smooth, high-gloss finish. Ingredients: Butyl Acetate, Ethyl Acetate, Isopropyl Alcohol, Nitrocellulose, Tosylamide/Epoxy Resin, Acetyl Tributyl Citrate, Benzophenone -1, Styrene/Acrylates Copolymer, Stearalkonium Hectorite, Malic Acid, Citric Acid, Bambusa Vulgaris (Bamboo) Extract, Ethyl Trymethylbenzoyl Phenylphosphinate, Diamond Powder, Polymethylsilsesquioxane.
+name:  Pure Anada Nail Polish
+price:  10.0
+tag:  ['Canadian', 'Non-GMO', 'Gluten Free', 'Vegan', 'Natural']
+description:  Pure Anada Nail Polish is long-wearing polish color that is “free” from the 5 most toxic ingredients found in traditional polish. Plus it is solvent-based, not water-based.Pure Anada Polish is amazingly long-lasting when applied with the “Over-Under” base/top coat.Ingredients: Butylacetate, Ethylacetate, Nitrocellulose, Acetyl Tributyl  Citrate, Adipic Acid/Neopentyl, Glycol Trimellitic, Anhydride Copolymer, Isopropyl Alcohol, Acrylates Copolymer, Stearalkonium Bentonite,  Styrene Acrylates, Copolymer, Silica, Alumina, Benzophenone-1. May contain:  Mica, Iron Oxides (CI77491, 77499), Titanium Dioxide (CI77891), Red 7 Lake (CI158501), UltramarinesVegan, Gluten Free, Non-GMO, 5-Free, Dairy Free, Peanut Free
+name:  Mineral Fusion Sheer Moisture Lip Tint
+price:  12.0
+tag:  ['Gluten Free', 'Vegan', 'Natural']
+description:  Mineral Fusion Sheer Moisture Lip Tint is a sheer, buildable mineral colour that provides long-lasting hydration and applies effortlessly on-the-go with no mirror required.  The 100% pure mineral shades are ultra-hydrating, infused with Cocoa Butter, a lip-firming peptide, and a refreshing Vanilla-Mint flavor.  Features:Hydrating & FirmingPerfect for On-The-Go UseFree of artificial colour and fragranceCruelty FreeParaben FreeTalc FreeHypo-allergenicPhthalate FreeIngredients: Ricinus Communis (Castor) Seed Oil, Ethylhexyl Hydroxystearate, Jojoba (Simmondsia  Chinensis) Seed Oil, Cera Alba (Beeswax), Euphorbia Cerifera (Candelilla) Wax,  Copernicia Cerifera (Carnauba) Wax, Isopropyl Palmitate, Cetyl Alcohol, Ascorbic Acid  (Vitamin C), Theobroma Cacao (Cocoa) Seed Butter, Aloe Barbadensis, Tocopheryl  Acetate (Vitamin E), Palmitoyl Tripeptide-5, Olea Europaea (Olive) Leaf Extract,  Eupatorium Rebaudianum Bertoni Leaf Extract, Origanum Vulgare (Oregano) Leaf  Extract, Thymus Vulgarus (Thyme) Extract, Cocos Nucifera (Coconut) Oil, and Natural  Vanilla Mint.    May Contain: Red Iron Oxide, Yellow Iron Oxide, Black Iron Oxide, Titanium Dioxide, Mica. Gluten Free, Vegan
+name:  Pacifica Devocean Natural Lipstick Deeply Devoted Creamy Color
+price:  21.0
+tag:  ['Vegan', 'Natural']
+description:  Pacifica Devocean Lipstick is a 100% natural, hydrating vegan lipstick that will last with intensity, like the deepest of love.What look do you go for: the natural bronzed babe, tropical brights, or classic beauty? Try all three with this get the look with natural makeup piece found on our blog, The Well! Formulated without: Animal ingredients (including carmine, 
+beeswax and lanolin), animal testing. FD & C colors, mineral oil, 
+parabens, phthalates, petroleum, propylene glycol, SLS, gluten, peanut 
+oil and other ingredients you don't want on your skin.
+name:  e.l.f. Studio Matte Lip Color
+price:  4.99
+tag:  ['Vegan']
+description:  This convenient jumbo sized lip pencil creates exact color application 
+with twist up ease so you never have to sharpen.  The pigment rich color
+ glides on effortlessly and easily to provide long lasting matte color. 
+ The enriched Vitamin A, C & E formula moisturizes and hydrates lips
+ for beautiful healthy looking lips.How To Use: Apply to lips and blend in color. Re-apply as often as desired. Use alone or layer with your favorite lip gloss shade for a glossy effect. Ingredients: Paraffinum Liquidum (Mineral Oil), Microcrystalline Wax (Cera 
+Microcristallina), Synthetic Beeswax，Ethylhexyl Palmitate, Copernicia 
+Cerifera (Carnauba) Wax, Ozokerite, Polyethylene, Ceresin, Silica 
+Dimethyl Silylate, Polyisobutene, Aspartame, Retinol (VA), Magnesium 
+Ascorbyl Phosphate (VC), Tocopheryl Acetate (VE), Phenoxyethanol, 
+Ethylparaben，Propylparaben, Methylparaben. May Contain：Titanium Dioxide 
+(CI 77891), Iron Oxides (CI 77491, CI 77492,CI 77499), Blue No.1 Lake ( 
+CI 42090), Red No.40 Lake (CI 16035), Red No.7 Lake (CI 15850), Red 
+No.27 Lake (CI 45410)
+name:  e.l.f. Studio Moisturizing Lipstick
+price:  4.99
+tag:  ['Vegan']
+description:  The velvety, satin texture of e.l.f. Studio Moisturizing Lipstick glides on lips with vibrant color and 
+luminous shine. Enriched with Shea and Vitamins A, C, & E to nourish
+ and hydrate the lips. The rich, creamy formula seals in moisture for 
+long-lasting wear and comfort.Ingredients: Paraffinum Liquidum (Mineral Oil), Petrolatum, Ceresin, Ethylhexyl Palmitate, Hydrogenated Polydecene, Microcrystalline Wax (Cera Microcristallina), Polybutene, Paraffin, Synthetic Beeswax, Polyethylene, Copernicia Cerifera (Carnauba) Wax, Silica Dimethyl Silylate, Fragrance (Parfum), Butyrospermum Parkii (Shea) Butter, Retinyl Palmitate (Va), Tocopheryl Acetate (Ve), Ascorbyl Palmitate (Vc), Neotame, Propylparaben May Contain: Mica, Titanium Dioxide (CI 77891), Iron Oxides (CI 77491, CI 77492, CI 77499), Red 40 Lake (CI 16035), Red 7 Lake (CI 15850), Red 27 Lake (CI 45410), Red 6 Lake (CI 15850), Yellow 5 Lake (CI 19140), Blue 1 Lake (CI 42090) 
+name:  e.l.f. Studio Lengthening & Volumizing Mascara
+price:  4.99
+tag:  ['Vegan']
+description:  Achieve thicker, fuller, and longer lashes that are beautiful and 
+natural with e.l.f. Studio Lengthening & Volumizing Mascara. The enlarged brush coats your lashes evenly for an enhanced 
+appeal.  The unique formula is clump free and quick drying so you can 
+have color that stays on all day with no smudging and no flaking.Ingredients: Aqua(Water), Caprylic/Caprictri Glycerides, Cera Carnauba (Carnauba) 
+Wax, Synthetic Beeswax, Styrene/Acrylates/Ammonium Methacrylate 
+Copolymer, Stearic Acid, Cetyl Alcohol, Glyceryl,Stearate SE, PVP, 
+Triethanolamine, Triacontanyl PVP, Hydroxyethyl Cellulose, Benzyl 
+Alcohol, Methylchloroisothiazolinone, Methylisothiazolinone
+
+May Contain: Iron Oxides(CI 77891, CI 77892, CI 77899)
+
+name:  e.l.f. Studio Waterproof Lengthening & Volumizing Mascara
+price:  4.99
+tag:  ['Vegan']
+description:  Achieve thicker, fuller, and longer lashes that are beautiful and 
+natural with e.l.f. Studio Waterproof Lengthening & Volumizing Mascara. The enlarged brush coats your lashes evenly for an enhanced 
+appeal.  The unique formula is clump free and quick drying so you can 
+have color that stays on all day with no smudging and no flaking. 
+Waterproof, tear-proof and sweat proof for a look that lasts against all
+ odds.Ingredients: Aqua (Water), Caprylic/Caprictri Glycerides, Cera Carnauba (Carnauba) 
+Wax, Synthetic Beeswax
+Styrene/Acrylates/Ammonium Methacrylate Copolymer, Stearic Acid, Cetyl 
+Alcohol, Glyceryl Stearate SE
+PVP, Triethanolamine, Triacontanyl PVP, Hydroxyethyl Cellulose, Benzyl 
+Alcohol, Methylchloroisothiazolinone, Methylisothiazolinone. May Contain: Iron Oxides(CI 77491, CI 77492, CI 77499)
+
+name:  e.l.f. Studio Mineral Infused Mascara
+price:  4.99
+tag:  ['Vegan']
+description:  e.l.f. Studio Mineral Infused Mascara creates fuller, healthier looking 
+lashes.  Enhance lashes for a naturally thicker and more volumized look.
+  The long-wear formula and unique silicone brush creates a clump free 
+and defined application for gorgeous lashes all day.Ingredients: Aqua (Water), Caprylic/Capric Triglyceride, Cera Carnauba (Carnauba) 
+Wax, Synthetic Beeswax, Styrene/Acrylates/Ammonium Methacrylate 
+Copolymer, Stearic Acid, Cetyl Alcohol, Glyceryl Stearate SE, PVP, 
+Triethanolamine , Triacontanyl PVP, Hydroxyethyl Cellulose, Caprylyl 
+Glycol, Phenoxyethanol, Potassium Sorbate
+May Contain: Iron Oxides (CI 77491 , CI 77492 , CI 77499), Manganese 
+Violet (CI 77742) 
+
+
+name:  Suncoat Sugar-Based Mascara
+price:  16.49
+tag:  ['Canadian', 'Vegan', 'Natural']
+description:  This sugar-based natural mascara is another unique product from Suncoat. Made with natural sugar-based biopolymer, kaolin clay, earth pigments and enriched with Vitamin E, it naturally builds lash volume and length! It is a superior alternative for your sensitive eyes and for our environment!Features: Free of PVP (polyvinyl pyrrolidone polymer), acrylic copolymer, VA (vinyl acetate) polymerFree of fragrance, parabens, alcohol and glycolKind to sensitive eyesNaturally builds lash volume and lengthBiodegradable ingredientsVeganNot tested on animals Although NOT waterproof, this natural mascara has GREAT wear-ability. It resists smudging, but washes off easily with regular skin cleanser and water.Ingredients: Aqua (water), kaolin clay, vegetable glycerin, hydrolyzed Zee mays (corn) starch (natural sugar-based biopolymer), lecithin, Citrus grandis (grapefruit) seed extract, tocopherol (vitamin E), citric acid, pigments.
+name:  Pacifica Aquarian Gaze Water-Resistant Mascara
+price:  21.0
+tag:  ['Vegan', 'Natural']
+description:  This Pacifica Aquarian Gaze Water-Resistant and long wearing is a deep blue super lush natural mineral mascara. Amazing lengthening brush (100% 
+vegan) makes your lashes insanely long and gorgeous as it separates to 
+build volume. It is nourishing formula is infused with coconut oil, kelp
+ extract and vitamin B to hydrate each lash as it lengthens and 
+strengthens.Features:Coconut Oil- Studies have shown coconut oil to be an excellent hair strengthener and moisturizer that can reduce breakagePanthenol (Vitamin B)- Helps strengthen and nourish hairKelp Extract- Moisturize and condition lashesView IngredientsFormulated without:
+ Animal ingredients (including carmine, beeswax and lanolin), animal 
+testing. FD&C colors, mineral oil, parabens, phthalates, petroleum, 
+propylene glycol, SLS, gluten, peanut oil and other ingredients you 
+don’t want on your skin.Ingredients: Water (Aqua), 
+Copernicia cerifera (Carnauba) Wax (thickener), Euphorbia cerifera 
+(Candelilla) Wax (thickener), Acrylates Crosspolymer, Butylene Glycol, 
+Stearic Acid, Glyceryl Stearate, Polyisobutene, Phenoxyethanol, 
+Hydroxyethylcellulose Sodium Hydroxide, Caprylyl Glycol, 
+Ethylhexylglycerin, Steareth-21, Cocos Nucifera (coconut) Oil, Panthenol
+ (vitamin B), macrocystis pyrifera (kelp) extract, Sodium 
+Dehydroacetate, Disodium EDTA, Hexylene Glycol, Iron Oxides CI 77491, 
+77492, CI 77499. 
+name:  Pacifica Stellar Gaze Length & Strength Mineral Mascara
+price:  28.0
+tag:  ['Vegan', 'Natural']
+description:  You will fall in love with Pacifica's long lasting, nourishing, natural mineral
+ mascara.  This amazing formula is infused with coconut oil and vitamin B
+ to hydrate each lash as it lengthens, strengthens and adds volume. 
+Apply for a natural look by day, or layer for more volume with the super
+ plush 100% vegan brush that provides effortless coverage.100% vegan. Cruelty-free. Formulated without FD & C color, parabens, talc and mineral oil.
+Read our blog post for tips on how to Green & Clean your makeup bag.  Ingredients: Aqua, glycerin (vegetable), glyceryl stearate se, jojoba 
+esters, tapioca starch, stearic acid ( vegetable), copernicia cerfera 
+(carnauba) wax, euphorbia cerifera (candelilla) wax, arabic/acacia gum, 
+acrylates, crosspolymer, potassium cetyl phosphate, microcrystalline 
+cellulse (plant), cocos nucifera (coconut) oil, panthenol (vitamin b), 
+cellulose gum, gluconolactone, macrocystis pyifera (brown kelp) extract,
+ hydrolyzed oryza sativa (rice) protein, sodium benzoate, iron oxides c1
+ 77499.
