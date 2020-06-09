@@ -77,3 +77,6 @@
 
 ## Domain Model
 * https://ibb.co/SsFPVPW
+
+## References  
+[Regex references](https://www.regexpal.com/95367)  
