@@ -40,10 +40,20 @@ def user_input(user_fav_list = []):
   '''
   Would you like to order anything from our store (y/n)?
   '''))
+
   if order_now == 'y':
     search_product(user_fav_list)
-  elif order_now=='n' or order_now=='q':
-    print("Thank you! Please come again. ")
+
+  # elif order_now=='n' or order_now=='q':
+  #   print("Thank you! Please come again. ")
+
+
+  elif order_now == 'n':
+    return
+
+  elif order_now == 'q':
+    print("Thank you! Please come again.")
+
   else:
     print("Please re-enter with y or n")
     user_input()
@@ -66,15 +76,19 @@ def find_search_product(search_product, user_fav_list):
     """
     function has a dictionary of regex terms, then it iterates through a list of data and if the regex matches up with the search, it appends the items to user_fav_list.  
     """
+
     regex_dict = {'mascara':'\w*.ascara\w*', 'foundation': '\w*.oundation\w*', 'eye shadow': '\w*.hadow\w*', 'lip products': '\w*.ip\w*', 'bronzer': '\w*.onzer\w*', 'liner': '\w*[Ll]iner\w*', 'pencil' : '\w*.encil', 'blush' : '\w*.lush', 'cream' : '\w*.ream\w*', 'moisturizer': '\w*.oistu\w*', 'nail': '\w*.ail\w*', 'primer': '\w*.rimer\w*', 'powder': '\w*.owder\w*'}
+
     pattern = str(regex_dict[search_product])
+
     vegan_makeup_list = beauty_api_call()
+
     for item in vegan_makeup_list:
       if re.search(pattern,item['name'].strip()):
         user_fav_list.append(item['name'])
     # user_fav_list=list(set(user_fav_list))
 
-    print(user_fav_list)
+    # print(user_fav_list)
 
     user_input(user_fav_list)
 
@@ -89,6 +103,7 @@ def save_user_product(user_fav_list):
     '''
     Would you like to save your products?
     '''))
+
     if order_save == 'y':
       with open("./assets/vegan_cosmetics_saved.txt", "w") as file:
         for saved in user_fav_list: 
