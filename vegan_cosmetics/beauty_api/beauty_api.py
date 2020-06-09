@@ -1,8 +1,8 @@
 import requests
 import json
 
-# response = json.loads(requests.get("https://makeup-api.herokuapp.com/api/v1/products.json").text)
-# print(response)
+response = json.loads(requests.get("https://makeup-api.herokuapp.com/api/v1/products.json").text)
+print(response)
 
 with open('./assets/beauty_api.json', 'r') as f:
     response = json.loads(f.read())
