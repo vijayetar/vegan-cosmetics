@@ -1,7 +1,6 @@
 from textwrap import dedent
 import re
 from vegan_cosmetics.search_with_api.beauty_api import beauty_api_call
-from vegan_cosmetics.search_with_regex.search_with_regex import search_with_regex
 #User information
 #User input
 #Search API : match input with key values by name
@@ -55,7 +54,8 @@ def find_search_product(search_product, user_fav_list):
     for item in vegan_makeup_list:
       if re.search(pattern,item['name'].strip()):
         user_fav_list.append(item)
-    # print(len(user_fav_list))
+    user_fav_list=list(set(user_fav_list))
+    print(user_fav_list)
     user_input(user_fav_list)
  
   
