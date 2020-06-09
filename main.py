@@ -54,14 +54,25 @@ def find_search_product(search_product, user_fav_list):
     for item in vegan_makeup_list:
       if re.search(pattern,item['name'].strip()):
         user_fav_list.append(item)
-    user_fav_list=list(set(user_fav_list))
+    # user_fav_list=list(set(user_fav_list))
     print(user_fav_list)
     user_input(user_fav_list)
- 
-  
+
+def save_user_product(user_saved_input):
+  order_save = input(dedent(
+  '''
+  Would you like to save your products?
+  '''))
+  if search_product > 0:
+
+    with open("./assets/vegan_cosmetics_saved.txt", "w") as file:
+      for saved in user_input: 
+        for key, value in item.items():
+          string = f"{key}: {value} \n\n"
+          file.write("".join(string))
 
     
-
+save_user_product('mascarra')
 
 
 
