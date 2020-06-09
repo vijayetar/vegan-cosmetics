@@ -1,5 +1,6 @@
 from textwrap import dedent
-from vegan_cosmetics.beauty_api.beauty_api import beauty_api
+import re
+from vegan_cosmetics.search_with_api.beauty_api import beauty_api_call
 from vegan_cosmetics.search_with_regex.search_with_regex import search_with_regex
 #User information
 #User input
@@ -39,8 +40,28 @@ def search_product():
     '''
   ))
   search_product = search_product.lower()
-  print('This is what you want', search_product)
-  return search_product
+  find_search_product(search_product)
+
+
+def find_search_product(search_product):
+    regex_dict = {'mascara':'\b(\w*.ascara\w*)\b', 'foundation': '\b(\w*.oundation\w*)\b', 'eye shadow': '\b(\w*.hadow\w*)\b', 'lip products': '\b(\w*.ip\w*)\b', 'bronzer': '\b(\w*.onzer\w*)\b', 'liner': '\b(\w*.iner)\b', 'pencil' : '\b(\w*.encil)\b', 'blush' : '\b(\w*.lush)\b', 'cream' : '\b(\w*.ream\w*)\b', 'moisturizer': '\b(\w*.oistu\w*)\b', 'nail': '\b(\w*.ail\w*)\b', 'primer': '\b(\w*.rimer\w*)\b', 'powder': '\b(\w*.owder\w*)\b'}
+    pattern = str(regex_dict[search_product])
+    
+    vegan_makeup_list = beauty_api_call()
+    for item in vegan_makeup_list:
+      print(item['name'])
+# #     #check item['name'] to search_product
+#         products = re.search(pattern,item['name'])
+#         print(products)
+
+
+
+
+
+
+
+
+
 
 if __name__ == "__main__":
     welcome_information()
