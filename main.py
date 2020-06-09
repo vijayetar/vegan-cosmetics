@@ -16,7 +16,16 @@ def welcome_information():
 
   Press (q) to quit at any time
   '''))
+  reset_user_saved_file()
   user_input()
+
+def reset_user_saved_file():
+  """
+  Function that resets the saved users file
+  """
+  with open("./assets/vegan_cosmetics_saved.txt", "w") as file:
+      file.write("")
+
 
 def reset_user_fav_list():
   """
@@ -84,12 +93,8 @@ def find_search_product(search_product, user_fav_list):
     for item in vegan_makeup_list:
       if re.search(pattern,item['name'].strip()):
         user_fav_list.append(item['name'])
-    # user_fav_list=list(set(user_fav_list))
 
-    # print(user_fav_list)
-
-    user_input(user_fav_list)
-
+    # user_input(user_fav_list)
     save_user_product(user_fav_list)
 
 def save_user_product(user_fav_list):
@@ -103,9 +108,10 @@ def save_user_product(user_fav_list):
     '''))
 
     if order_save == 'y':
-      with open("./assets/vegan_cosmetics_saved.txt", "w") as file:
+      with open("./assets/vegan_cosmetics_saved.txt", "a+") as file:
         for saved in user_fav_list: 
           file.write(saved + "\n")
+      grab_saved_product()
     elif order_save == 'n': 
       user_input(user_fav_list)
     elif order_save =='q':
@@ -135,10 +141,8 @@ def grab_saved_product():
     elif user_choice == 'n' or user_choice=='q':
       print("Okay, maybe another time!")
       sys.exit()
-
-  if search_saved_product == 'n':
-    print("Okay, maybe another time!")
-    sys.exit()
+  elif search_saved_product == 'n':
+    search_product()
   
 if __name__ == "__main__":
     welcome_information()
