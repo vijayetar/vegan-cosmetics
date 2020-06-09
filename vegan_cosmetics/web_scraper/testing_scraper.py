@@ -18,7 +18,7 @@ def get_contents_thrive_causemetics():
   # print(both.a['href'])
   for item in both:
     # print(item.a['href'])
-    deeper_url = f"https://www.thrivecausemetics.com{item.a['href']}"
+    deeper_url = f"https://thrivecausemetics.com{item.a['href']}"
     # time.sleep(10)
     get_contents_thrive_causemetics_deeper(deeper_url)
     
@@ -27,7 +27,7 @@ def get_contents_thrive_causemetics():
 
 def get_contents_thrive_causemetics_deeper(deeper_url):
   # try:
-  breakpoint()
+  # breakpoint()
   response = requests.get(deeper_url)
   content = response.content
   soup = BeautifulSoup(content, 'html.parser')
@@ -41,7 +41,6 @@ def get_contents_thrive_causemetics_deeper(deeper_url):
   print(f"Ingredients:  {results.get_text().strip()}")
   print("*" * 100)
   # except ValueError('Website could not be reached')
-
 
 # Jesse ****************************************************************************************
 
