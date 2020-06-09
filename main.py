@@ -71,24 +71,46 @@ def find_search_product(search_product, user_fav_list):
       if re.search(pattern,item['name'].strip()):
         user_fav_list.append(item['name'])
     # user_fav_list=list(set(user_fav_list))
-    # print(user_fav_list)
+
+    print(user_fav_list)
+
     user_input(user_fav_list)
 
-# def save_user_product(user_saved_input, user_fav_list):
-#   """
-#   A function that will give the user and option to save their searched products.  If the user determines to save the products, it will write the products to a new database, if not, it will discard the products that they have searched.  
-#   """
-#   if user_input(user_fav_list) > 0:
-#     order_save = input(dedent(
-#     '''
-#     Would you like to save your products?
-#     '''))
-#     if order_save == 'y':
-#       with open("./assets/vegan_cosmetics_saved.txt", "w") as file:
-#         for saved in user_input: 
-#           for key, value in item.items():
-#             string = f"{key}: {value} \n\n"
-#             file.write("".join(string))
+    save_user_product(user_fav_list)
 
+def save_user_product(user_fav_list):
+  """
+  A function that will give the user and option to save their searched products.  If the user determines to save the products, it will write the products to a new database, if not, it will discard the products that they have searched.  
+  """
+  if len(user_fav_list) > 0:
+    order_save = input(dedent(
+    '''
+    Would you like to save your products?
+    '''))
+    if order_save == 'y':
+      with open("./assets/vegan_cosmetics_saved.txt", "w") as file:
+        for saved in user_fav_list: 
+          file.write(saved + "\n")
+    if order_save == 'n': 
+      print("Thank you! Please come again.")
+
+def grab_saved_product():
+  """
+  A function that will print the saved products to be viewed by the user.  
+  """
+  search_saved_product = input(dedent(
+    '''
+    What would you like view your saved products (y/n)?
+    '''
+  ))
+
+  if search_saved_product == 'y':
+    with open("./assets/vegan_cosmetics_saved.txt", "r") as file:
+      print(file.read())
+
+  if search_saved_product == 'n':
+    print("Okay, maybe another time!")
+  
 if __name__ == "__main__":
-    welcome_information() 
+    welcome_information()
+    grab_saved_product() 
