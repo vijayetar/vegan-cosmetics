@@ -1,14 +1,7 @@
 from textwrap import dedent
 import re
 from vegan_cosmetics.search_with_api.beauty_api import beauty_api_call
-#User information
-##User input
-##Search API : match input with key values by name
-#Search web page
-##select item or all search is saved
-##save to text file
-# retrieve file for the user
-# display the personalized file for the user
+import sys
 
 def welcome_information():
   """
@@ -47,18 +40,18 @@ def user_input(user_fav_list = []):
   # elif order_now=='n' or order_now=='q':
   #   print("Thank you! Please come again. ")
 
-
   elif order_now == 'n':
-    return
+    grab_saved_product()
 
   elif order_now == 'q':
     print("Thank you! Please come again.")
+    sys.exit()
 
   else:
     print("Please re-enter with y or n")
     user_input()
 
-def search_product(user_fav_list):
+def search_product(user_fav_list=[]):
   """
   Ask the user what they would like to order, then it plugs the input into the find_search_product helper function which searchs the products in the databse based on regex.
   """
@@ -68,7 +61,12 @@ def search_product(user_fav_list):
     '''
   ))
   
+  if search_product =='q':
+    print("Thank you for shopping here!")
+    sys.exit()
+
   search_product = search_product.lower()
+
   find_search_product(search_product,user_fav_list)
 
 
@@ -108,8 +106,11 @@ def save_user_product(user_fav_list):
       with open("./assets/vegan_cosmetics_saved.txt", "w") as file:
         for saved in user_fav_list: 
           file.write(saved + "\n")
-    if order_save == 'n': 
-      print("Thank you! Please come again.")
+    elif order_save == 'n': 
+      user_input(user_fav_list)
+    elif order_save =='q':
+      print("Thank you for shopping here!")
+      sys.quit()
 
 def grab_saved_product():
   """
@@ -117,17 +118,27 @@ def grab_saved_product():
   """
   search_saved_product = input(dedent(
     '''
-    What would you like view your saved products (y/n)?
+    Would you like to view your saved products (y/n)?
     '''
   ))
 
   if search_saved_product == 'y':
     with open("./assets/vegan_cosmetics_saved.txt", "r") as file:
       print(file.read())
+    user_choice = input(dedent(
+      '''
+      Would you like to order more products? Please answer (y/n)
+      '''
+    ))
+    if user_choice == 'y':
+      search_product()
+    elif user_choice == 'n' or user_choice=='q':
+      print("Okay, maybe another time!")
+      sys.exit()
 
   if search_saved_product == 'n':
     print("Okay, maybe another time!")
+    sys.exit()
   
 if __name__ == "__main__":
     welcome_information()
-    grab_saved_product() 

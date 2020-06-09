@@ -6,11 +6,11 @@
 * gitignore
 * requests
 * bs4
-* selenium
 * black 
 * pytest
 * regex
 * json
+* sys
 
 
 ## Title
