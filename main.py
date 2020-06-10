@@ -4,6 +4,8 @@ from vegan_cosmetics.search_with_api.beauty_api import beauty_api_call
 import sys
 from vegan_cosmetics.web_scraper.web_scraper import get_contents_100percentpure, get_contents_100percentpure_deeper, get_contents_thrive_causemetics, get_contents_thrive_causemetics_deeper
 
+vegan_makeup_list= []
+
 def welcome_information():
   """
   Initial function.  Greets the user and then calls the user_input function which ultimately allows the user to say whether or not they want to order from the store.
@@ -14,8 +16,8 @@ def welcome_information():
   Welcome to our Vegan Cosmetic Site!!!
 
   *****************************************
-
   Press (q) to quit at any time
+  *****************************************
   '''))
   reset_user_saved_file()
   user_input()
@@ -50,7 +52,9 @@ def user_input(user_fav_list = []):
     grab_saved_product()
 
   elif order_now == 'q':
-    print("Thank you! Please come again.")
+    print("*" * 100)
+    print("Thank you for shopping here!")
+    print("*" * 100)
     sys.exit()
 
   else:
@@ -64,17 +68,23 @@ def search_product(user_fav_list=[]):
   search_product = input(dedent(
     '''
     What would you like to view? Quit with (q)
-    Your options are: 
+
+
+
+    Type a product category name or an individual product name:
     Eye Vegan Products: mascara, eye shadow, liner
     Lip Vegan Products: lip products, liner, pencil
     Face Vegan Products: cream, moisturizer, bronzer, foundation, blush, primer
     Nail Vegan Products: nail
 
+
     '''
   ))
   
   if search_product =='q':
+    print("*" * 100)
     print("Thank you for shopping here!")
+    print("*" * 100)
     sys.exit()
 
   search_product = search_product.lower()
@@ -87,25 +97,27 @@ def find_search_product(search_product, user_fav_list):
     function has a dictionary of regex terms, then it iterates through a list of data and if the regex matches up with the search, it appends the items to user_fav_list.  
     """
 
-    regex_dict = {'mascara':'\w*.ascara\w*', 'foundation': '\w*.oundation\w*', 'eye shadow': '\w*.hadow\w*', 'lip products': '\w*.ip\w*', 'bronzer': '\w*.onzer\w*', 'liner': '\w*[Ll]iner\w*', 'pencil' : '\w*.encil', 'blush' : '\w*.lush', 'cream' : '\w*.ream\w*', 'moisturizer': '\w*.oistu\w*', 'nail': '\w*.ail\w*', 'primer': '\w*.rimer\w*', 'powder': '\w*.owder\w*'}
+    regex_dict = {'mascara':'\w*.ascara\w*', 'foundation': '\w*.oundation\w*', 'eye shadow': '\w*.hadow\w*', 'lip products': '\w*.ip\w*', 'bronzer': '\w*.onzer\w*', 'liner': '\w*[Ll]iner\w*', 'pencil' : '\w*.encil', 'blush' : '\w*.lush', 'cream' : '\w*.ream\w*', 'moisturizer': '\w*.oistu\w*', 'nail': '\w*.ail\w*', 'primer': '\w*.rimer\w*', 'powder': '\w*.owder\w*', 'eye vegan products': '\w*.ascara\w*|\w*.hadow\w*|\w*.[Ll]iner\w*', 'lip vegan products': '\w*.ip\w*|\w*[Ll]iner\w*|\w*.encil', 'face vegan products': '\w*.ream\w*|\w*.oistu\w*|\w*.onzer\w*|\w*.oundation\w*|\w*.lush|\w*.rimer\w*', 'nail vegan products': '\w*.ail\w*'}
 
     pattern = str(regex_dict[search_product])
-
+    
+    global vegan_makeup_list
+    if not vegan_makeup_list:
     # API call to makeup_API and the webscraping initiated
-    vegan_makeup_list = beauty_api_call()
-    get_contents_100percentpure()
-    get_contents_thrive_causemetics()
+      vegan_makeup_list = beauty_api_call()
+      get_contents_100percentpure()
+      get_contents_thrive_causemetics()
+
+    # searching for item in the API
+    for item in vegan_makeup_list:
+      if re.search(pattern,item['name'].strip()):
+        user_fav_list.append(f"Name :   {item['name']}  Cost :    {item['price']} \n")
 
     with open ("./assets/thrive_cosmetics_saved.txt", "r") as file:
       thrive_cosmetics_scrape = file.readlines()
     
     with open ("./assets/hundred_percent_saved.txt", "r") as file:
       hundred_percent_scrape = file.readlines()
-    
-    # searching for item in the API
-    for item in vegan_makeup_list:
-      if re.search(pattern,item['name'].strip()):
-        user_fav_list.append(f"Name :   {item['name']}  Cost :    {item['price']} \n")
 
     # searching for item in the thrive causemetics
     for item in thrive_cosmetics_scrape:
@@ -140,6 +152,9 @@ def save_user_product(user_fav_list):
     elif order_save =='q':
       print("Thank you for shopping here!")
       sys.exit()
+    else:
+      print("Please re-enter with (y) or (n)")
+      save_user_product(user_fav_list)
 
 def grab_saved_product():
   """
@@ -160,6 +175,10 @@ def grab_saved_product():
       print("*" * 100)
     elif saved_user_file:
       print(saved_user_file)
+    else:
+      print("Please re-enter with (y) or (n)")
+      grab_saved_product()
+
     user_choice = input(dedent(
       '''
       Would you like to view more products(y/n) or quit(q)?
@@ -168,7 +187,9 @@ def grab_saved_product():
     if user_choice == 'y':
       search_product()
     elif user_choice == 'n' or user_choice=='q':
+      print("*" * 100)
       print("Thank you for shopping here!")
+      print("*" * 100)
       sys.exit()
   elif search_saved_product == 'n':
     user_choice = input(dedent(
@@ -177,9 +198,14 @@ def grab_saved_product():
       '''
     ))
     if user_choice == 'n' or user_choice=='q':
+      print("*" * 100)
       print("Thank you for shopping here!")
+      print("*" * 100)
       sys.exit()
     search_product()
-     
+  else:
+    print("Please re-enter with (y) or (n)") 
+    grab_saved_product()
+      
 if __name__ == "__main__":
     welcome_information()
