@@ -4,10 +4,23 @@ import re
 from tests.flo import Flo
 import pytest
 
-# def test_flo_quit():
-#     Flo.test('tests/flow/flo_quit.txt')
-# # def test_flo_order_mascara_then_quit():
-# #     Flo.test('tests/flow/flo_order_mascara_then_quit.txt')
+def test_flo_quit():
+    Flo.test('tests/flow/flo_quit.txt')
+
+def test_flo_order_quit():
+    Flo.test('tests/flow/flo_order_quit.txt')
+
+def test_flo_order_bad_quit():
+    Flo.test('tests/flow/flo_order_bad_quit.txt')
+
+def test_flo_order_mascara_no_view_quit():
+    Flo.test('tests/flow/flo_order_mascara_no_view_quit.txt')
+
+def test_flo_no_order_no_view_quit():
+    Flo.test('tests/flow/flo_no_order_no_view_quit.txt')
+
+def test_flo_order_mascara_cream_no_view_quit():
+    Flo.test('tests/flow/flo_order_mascara_cream_no_view.txt')
 
 # def test_user_input():
 #     user_input()

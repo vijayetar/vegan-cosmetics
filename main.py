@@ -8,7 +8,7 @@ vegan_makeup_list= []
 
 def welcome_information():
   """
-  Initial function.  Greets the user and then calls the user_input function which ultimately allows the user to say whether or not they want to order from the store.
+  Initial function.  Greets they user and then calls the user_input function which ultimately allows the user to say whether or not they want to order from the store.
   """
   print(dedent('''
   *****************************************
@@ -65,41 +65,47 @@ def search_product(user_fav_list=[]):
   """
   Ask the user what they would like to order, then it plugs the input into the find_search_product helper function which searchs the products in the databse based on regex.
   """
-  search_product = input(dedent(
+  print(dedent(
     '''
-    What would you like to view? Quit with (q)
+    These are the categories and individual products available:
 
-
-
-    Type a product category name or an individual product name:
     Eye Vegan Products: mascara, eye shadow, liner
     Lip Vegan Products: lip products, liner, pencil
     Face Vegan Products: cream, moisturizer, bronzer, foundation, blush, primer
     Nail Vegan Products: nail
 
+    Please type in either category or product
 
     '''
   ))
+  search_word = input(dedent(
+    '''
+    What would you like to view? Quit with (q)
+    '''
+  ))
   
-  if search_product =='q':
+  if search_word =='q':
     print("*" * 100)
     print("Thank you for shopping here!")
     print("*" * 100)
     sys.exit()
 
-  search_product = search_product.lower()
+  search_word = search_word.lower()
 
-  find_search_product(search_product,user_fav_list)
+  find_search_product(search_word,user_fav_list)
 
 
-def find_search_product(search_product, user_fav_list):
+def find_search_product(search_word, user_fav_list):
     """
     function has a dictionary of regex terms, then it iterates through a list of data and if the regex matches up with the search, it appends the items to user_fav_list.  
     """
 
     regex_dict = {'mascara':'\w*.ascara\w*', 'foundation': '\w*.oundation\w*', 'eye shadow': '\w*.hadow\w*', 'lip products': '\w*.ip\w*', 'bronzer': '\w*.onzer\w*', 'liner': '\w*[Ll]iner\w*', 'pencil' : '\w*.encil', 'blush' : '\w*.lush', 'cream' : '\w*.ream\w*', 'moisturizer': '\w*.oistu\w*', 'nail': '\w*.ail\w*', 'primer': '\w*.rimer\w*', 'powder': '\w*.owder\w*', 'eye vegan products': '\w*.ascara\w*|\w*.hadow\w*|\w*.[Ll]iner\w*', 'lip vegan products': '\w*.ip\w*|\w*[Ll]iner\w*|\w*.encil', 'face vegan products': '\w*.ream\w*|\w*.oistu\w*|\w*.onzer\w*|\w*.oundation\w*|\w*.lush|\w*.rimer\w*', 'nail vegan products': '\w*.ail\w*'}
 
-    pattern = str(regex_dict[search_product])
+    if search_word not in regex_dict:
+      search_product(user_fav_list)
+
+    pattern = str(regex_dict[search_word])
     
     global vegan_makeup_list
     if not vegan_makeup_list:
@@ -150,8 +156,9 @@ def save_user_product(user_fav_list):
     elif order_save == 'n': 
       user_input(user_fav_list)
     elif order_save =='q':
+      print("*" * 100)
       print("Thank you for shopping here!")
-      sys.exit()
+      print("*" * 100)
     else:
       print("Please re-enter with (y) or (n)")
       save_user_product(user_fav_list)

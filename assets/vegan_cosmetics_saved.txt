@@ -1,4 +1,3 @@
-
 Name :   e.l.f. Studio Lengthening & Volumizing Mascara  Cost :    4.99 
 
 Name :   e.l.f. Studio Waterproof Lengthening & Volumizing Mascara  Cost :    4.99 
@@ -11,39 +10,15 @@ Name :   Pacifica Aquarian Gaze Water-Resistant Mascara  Cost :    21.0
 
 Name :   Pacifica Stellar Gaze Length & Strength Mineral Mascara  Cost :    28.0 
 
-Name :   Liquid Lash Extensions Mascara™  Cost :    $24 
+Name :   e.l.f. Studio Lengthening & Volumizing Mascara  Cost :    4.99 
 
-Name :   Fruit Pigmented® Ultra Lengthening Mascara  Cost :    $26.00 
+Name :   e.l.f. Studio Waterproof Lengthening & Volumizing Mascara  Cost :    4.99 
 
-Name :   Maracuja Mascara  Cost :    $26.00 
+Name :   e.l.f. Studio Mineral Infused Mascara  Cost :    4.99 
 
-Name :   Gel Liner  Cost :    0.0 
+Name :   Suncoat Sugar-Based Mascara  Cost :    16.49 
 
-Name :   Sante Kajal Eyeliner Pencil  Cost :    17.29 
+Name :   Pacifica Aquarian Gaze Water-Resistant Mascara  Cost :    21.0 
 
-Name :   Zorah Liquid Liner  Cost :    24.0 
-
-Name :   Suncoat Sugar-based Natural Liquid Eyeliner  Cost :    16.99 
-
-Name :   e.l.f. Studio Eyeliner & Shadow Stick   Cost :    4.99 
-
-Name :   e.l.f. Studio Precision Liquid Eyeliner  Cost :    4.99 
-
-Name :   e.l.f. Studio Eye Primer & Liner Sealer  Cost :    4.99 
-
-Name :   e.l.f. Studio Cream Eyeliner  Cost :    4.99 
-
-Name :   Infinity Waterproof Eyeliner™  Cost :    $22 
-
-Name :   Infinity Waterproof Eyebrow Liner™  Cost :    $23 
-
-Name :   Headliner Lipstick™  Cost :    $26 
-
-Name :   Lip Filler Long Wearing + Plumping Lip Liner™  Cost :    $20 
-
-Name :   Creamy Long Last Liner: Blackest  Cost :    $26.00 
-
-Name :   Creamy Long Last Liner: Dark Cacao  Cost :    $26.00 
-
-Name :   Long Last Liquid Eye Liner  Cost :    $30.00 
+Name :   Pacifica Stellar Gaze Length & Strength Mineral Mascara  Cost :    28.0 
 

@@ -12,7 +12,7 @@ def beauty_api_call():
 
     finally:
         vegan_makeup_list = making_vegan_makeup_list(response)
-        print ('\n', 'Checking:  ', 'Beauty Catalog')
+        print ('\n  Checking:  Beauty Catalog')
         return vegan_makeup_list
 
 
@@ -36,12 +36,7 @@ def making_vegan_makeup_list(response):
                 string = f"{key}:  {value}\n"
                 file.write("".join(string))
 
-    return vegan_makeup_list   
-
-    # for i in vegan_makeup_list:
-    #     print(i['name'])
-    #     # print('\n\n')
-    #     print('*************************************************')     
+    return vegan_makeup_list       
 
 if __name__ == "__main__":
     beauty_api_call()
