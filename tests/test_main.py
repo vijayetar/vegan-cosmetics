@@ -1,6 +1,13 @@
 from main import welcome_information, user_input, search_product, find_search_product
 from textwrap import dedent
 import re
+from tests.flo import Flo
+import pytest
+
+# def test_flo_quit():
+#     Flo.test('tests/flow/flo_quit.txt')
+# # def test_flo_order_mascara_then_quit():
+# #     Flo.test('tests/flow/flo_order_mascara_then_quit.txt')
 
 # def test_user_input():
 #     user_input()
