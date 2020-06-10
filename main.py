@@ -40,7 +40,7 @@ def user_input(user_fav_list = []):
   """
   order_now = input(dedent(
   '''
-  Would you like to order anything from our store (y/n)?
+  Would you like to order anything from our store (y/n) Or would you like to quit (q)?
   '''))
 
   if order_now == 'y':
@@ -63,7 +63,12 @@ def search_product(user_fav_list=[]):
   """
   search_product = input(dedent(
     '''
-    What would you like to order?
+    What would you like to order? You can also quit(q)
+    Your options are: 
+    Eye Vegan Products: mascara, eye shadow, liner
+    Lip Vegan Products: lip products, liner, pencil
+    Face Vegan Products: cream, moisturizer, bronzer, foundation, blush, primer
+    Nail Vegan Products: nail
     '''
   ))
   
@@ -121,7 +126,7 @@ def save_user_product(user_fav_list):
   if len(user_fav_list) > 0:
     order_save = input(dedent(
     '''
-    Would you like to save your products?
+    Would you like to save your products (y/n)? You can also quit(q)
     '''))
 
     if order_save == 'y':
@@ -141,7 +146,7 @@ def grab_saved_product():
   """
   search_saved_product = input(dedent(
     '''
-    Would you like to view your saved products (y/n)?
+    Would you like to view your saved products (y/n)? You can also quit (q)
     '''
   ))
 

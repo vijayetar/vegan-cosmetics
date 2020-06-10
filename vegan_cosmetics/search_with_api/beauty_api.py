@@ -3,7 +3,7 @@ import json
 
 def beauty_api_call():
     # response = json.loads(requests.get("https://makeup-api.herokuapp.com/api/v1/products.json").text)
-
+    print ('Checking:  ', 'Beauty Catalog')
     with open('./assets/beauty_api.json', 'r') as f:
         response = json.loads(f.read())
     vegan_makeup_list = making_vegan_makeup_list(response)
@@ -28,7 +28,6 @@ def making_vegan_makeup_list(response):
                 string = f"{key}:  {value}\n"
                 file.write("".join(string))
 
-    
     return vegan_makeup_list   
 
     # for i in vegan_makeup_list:
