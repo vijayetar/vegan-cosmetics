@@ -1,13 +1,21 @@
-# import requests
+import requests
 import json
 
+
 def beauty_api_call():
-    # response = json.loads(requests.get("https://makeup-api.herokuapp.com/api/v1/products.json").text)
-    print ('\n', 'Checking:  ', 'Beauty Catalog')
-    with open('./assets/beauty_api.json', 'r') as f:
-        response = json.loads(f.read())
-    vegan_makeup_list = making_vegan_makeup_list(response)
-    return vegan_makeup_list
+    try:
+        response = json.loads(requests.get("https://makeup-api.herokuapp.com/api/v1/products.json", timeout=10).text)
+
+    except:
+        with open('./assets/beauty_api.json', 'r') as f:
+            response = json.loads(f.read())
+
+    finally:
+        vegan_makeup_list = making_vegan_makeup_list(response)
+        print ('\n', 'Checking:  ', 'Beauty Catalog')
+        return vegan_makeup_list
+
+
 
 def making_vegan_makeup_list(response):
     vegan_makeup_list = []
