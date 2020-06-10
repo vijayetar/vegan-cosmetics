@@ -2,19 +2,13 @@ import requests
 import time
 from bs4 import BeautifulSoup
 
-# to make the data available to the user
-## scrape both the sites when the user logs in
-## ##write the data to a text file
-## have text file available for regex search
-## display the data along with the API call to the user
-
 hundred_percent_url = "https://www.100percentpure.com/collections/fruit-dyed-makeup"
 thrive_causemetics_url = "https://thrivecausemetics.com/collections/all"
 
 def get_contents_thrive_causemetics():
   with open ("./assets/thrive_cosmetics_saved.txt", "w") as file:
     file.write("")
-  print('This is the website:  ', 'Thrive Causemetics')
+  print('Checking:  ', 'Thrive Causemetics Catalog')
   response = requests.get(thrive_causemetics_url)
   content = response.content
   soup = BeautifulSoup(content, 'html.parser')
@@ -40,7 +34,7 @@ def get_contents_thrive_causemetics_deeper(deeper_url):
 def get_contents_100percentpure():
   with open ("./assets/hundred_percent_saved.txt", "w") as file:
     file.write("")
-  print('This is the website:  ', '100percent pure')
+  print('Checking:  ', '100 Percent Pure Catalog')
   response = requests.get(hundred_percent_url)
   content = response.content
   soup = BeautifulSoup(content, 'html.parser')
@@ -49,7 +43,7 @@ def get_contents_100percentpure():
   for item in both:
     deeper_url = f"https://www.100percentpure.com{item.span.a['href']}"
     get_contents_100percentpure_deeper(deeper_url)
-    print("\n")
+  
 
 def get_contents_100percentpure_deeper(deeper_url):
   response = requests.get(deeper_url)
