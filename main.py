@@ -2,6 +2,7 @@ from textwrap import dedent
 import re
 from vegan_cosmetics.search_with_api.beauty_api import beauty_api_call
 import sys
+from vegan_cosmetics.web_scraper.web_scraper import get_contents_100percentpure, get_contents_100percentpure_deeper, get_contents_thrive_causemetics, get_contents_thrive_causemetics_deeper
 
 def welcome_information():
   """
@@ -26,7 +27,6 @@ def reset_user_saved_file():
   with open("./assets/vegan_cosmetics_saved.txt", "w") as file:
       file.write("")
 
-
 def reset_user_fav_list():
   """
   Function that resets the users favorite list
@@ -45,9 +45,6 @@ def user_input(user_fav_list = []):
 
   if order_now == 'y':
     search_product(user_fav_list)
-
-  # elif order_now=='n' or order_now=='q':
-  #   print("Thank you! Please come again. ")
 
   elif order_now == 'n':
     grab_saved_product()
@@ -88,11 +85,31 @@ def find_search_product(search_product, user_fav_list):
 
     pattern = str(regex_dict[search_product])
 
+    # API call to makeup_API and the webscraping initiated
     vegan_makeup_list = beauty_api_call()
+    get_contents_100percentpure()
+    get_contents_thrive_causemetics()
 
+    with open ("./assets/thrive_cosmetics_saved.txt", "r") as file:
+      thrive_cosmetics_scrape = file.readlines()
+    
+    with open ("./assets/hundred_percent_saved.txt", "r") as file:
+      hundred_percent_scrape = file.readlines()
+    
+    # searching for item in the API
     for item in vegan_makeup_list:
       if re.search(pattern,item['name'].strip()):
-        user_fav_list.append(item['name'])
+        user_fav_list.append(f"Name :   {item['name']}  Cost :    {item['price']} \n")
+
+    # searching for item in the thrive causemetics
+    for item in thrive_cosmetics_scrape:
+      if re.search(pattern,item.strip()):
+        user_fav_list.append(item)
+    
+    # searching for item in the hundred percent pure
+    for item in hundred_percent_scrape:
+      if re.search(pattern,item.strip()):
+        user_fav_list.append(item)
 
     # user_input(user_fav_list)
     save_user_product(user_fav_list)
@@ -116,7 +133,7 @@ def save_user_product(user_fav_list):
       user_input(user_fav_list)
     elif order_save =='q':
       print("Thank you for shopping here!")
-      sys.quit()
+      sys.exit()
 
 def grab_saved_product():
   """
