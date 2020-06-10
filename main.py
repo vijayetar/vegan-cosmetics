@@ -40,7 +40,7 @@ def user_input(user_fav_list = []):
   """
   order_now = input(dedent(
   '''
-  Would you like to order anything from our store (y/n) Or would you like to quit (q)?
+  Would you like to see anything from our store catalog (y/n) Or would you like to quit (q)?
   '''))
 
   if order_now == 'y':
@@ -54,7 +54,7 @@ def user_input(user_fav_list = []):
     sys.exit()
 
   else:
-    print("Please re-enter with y or n")
+    print("Please re-enter with (y) or (n)")
     user_input()
 
 def search_product(user_fav_list=[]):
@@ -63,12 +63,13 @@ def search_product(user_fav_list=[]):
   """
   search_product = input(dedent(
     '''
-    What would you like to order? You can also quit(q)
+    What would you like to view? Quit with (q)
     Your options are: 
     Eye Vegan Products: mascara, eye shadow, liner
     Lip Vegan Products: lip products, liner, pencil
     Face Vegan Products: cream, moisturizer, bronzer, foundation, blush, primer
     Nail Vegan Products: nail
+
     '''
   ))
   
@@ -126,7 +127,7 @@ def save_user_product(user_fav_list):
   if len(user_fav_list) > 0:
     order_save = input(dedent(
     '''
-    Would you like to save your products (y/n)? You can also quit(q)
+    Would you like to save the products to your personal catalog (y/n)? You can also quit(q)
     '''))
 
     if order_save == 'y':
@@ -146,25 +147,39 @@ def grab_saved_product():
   """
   search_saved_product = input(dedent(
     '''
-    Would you like to view your saved products (y/n)? You can also quit (q)
+    Would you like to view your personal catalog (y/n)? You can also quit (q)
     '''
   ))
 
   if search_saved_product == 'y':
     with open("./assets/vegan_cosmetics_saved.txt", "r") as file:
-      print(file.read())
+      saved_user_file = file.read()
+    if not saved_user_file:
+      print("*" * 100)
+      print("There are no saved items in your personal catalog")
+      print("*" * 100)
+    elif saved_user_file:
+      print(saved_user_file)
     user_choice = input(dedent(
       '''
-      Would you like to order more products? Please answer (y/n)
+      Would you like to view more products(y/n) or quit(q)?
       '''
     ))
     if user_choice == 'y':
       search_product()
     elif user_choice == 'n' or user_choice=='q':
-      print("Okay, maybe another time!")
+      print("Thank you for shopping here!")
       sys.exit()
   elif search_saved_product == 'n':
+    user_choice = input(dedent(
+      '''
+      Enter (q) to quit or (y) to view more products 
+      '''
+    ))
+    if user_choice == 'n' or user_choice=='q':
+      print("Thank you for shopping here!")
+      sys.exit()
     search_product()
-  
+     
 if __name__ == "__main__":
     welcome_information()
