@@ -1,0 +1,34 @@
+Would you like to see anything from our store catalog (y/n) Or would you like to quit (q)?
+y
+
+These are the categories and individual products available:
+
+Eye Vegan Products: mascara, eye shadow, liner
+Lip Vegan Products: lip products, liner, pencil
+Face Vegan Products: cream, moisturizer, bronzer, foundation, blush, primer
+Nail Vegan Products: nail
+
+Please type in either category or product
+
+
+
+What would you like to view? Quit with (q)
+mascara
+
+  Checking:  Beauty Catalog
+
+  Checking:  100 Percent Pure Catalog
+
+  Checking:  Thrive Causemetics Catalog
+
+Would you like to save the products to your personal catalog (y/n)? You can also quit(q)
+y
+
+Would you like to view your personal catalog (y/n)? You can also quit (q)
+n
+
+Enter (q) to quit or (y) to view more products 
+q
+****************************************************************************************************
+Thank you for shopping here!
+****************************************************************************************************

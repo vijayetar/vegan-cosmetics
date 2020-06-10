@@ -1,0 +1,19 @@
+Would you like to see anything from our store catalog (y/n) Or would you like to quit (q)?
+y
+
+These are the categories and individual products available:
+
+Eye Vegan Products: mascara, eye shadow, liner
+Lip Vegan Products: lip products, liner, pencil
+Face Vegan Products: cream, moisturizer, bronzer, foundation, blush, primer
+Nail Vegan Products: nail
+
+Please type in either category or product
+
+
+
+What would you like to view? Quit with (q)
+q
+****************************************************************************************************
+Thank you for shopping here!
+****************************************************************************************************

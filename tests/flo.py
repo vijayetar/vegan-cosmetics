@@ -1,12 +1,14 @@
 import builtins
 from main import welcome_information, user_input,search_product, find_search_product,save_user_product, grab_saved_product
+
 class Flo:
     PROMPTS = (
-        "Would you like to see anything in our store (y/n)?",
-        "What would you like to see?",
-        "Would you like to save your products?",
-        "Would you like to view your saved products (y/n)?",
-        "Would you like to see more products? Please answer (y/n)"
+        "Would you like to see anything from our store catalog (y/n) Or would you like to quit (q)?",
+        "What would you like to view? Quit with (q)",
+        "Would you like to save the products to your personal catalog (y/n)? You can also quit(q)",
+        "Would you like to view your personal catalog (y/n)? You can also quit (q)",
+        "Would you like to view more products(y/n) or quit(q)?",
+        "Enter (q) to quit or (y) to view more products"
     )
     def __init__(self, path):
         self.path = path

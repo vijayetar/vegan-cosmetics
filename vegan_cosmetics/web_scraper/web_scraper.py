@@ -8,7 +8,7 @@ thrive_causemetics_url = "https://thrivecausemetics.com/collections/all"
 def get_contents_thrive_causemetics():
   with open ("./assets/thrive_cosmetics_saved.txt", "w") as file:
     file.write("")
-  print('\n', 'Checking:  ', 'Thrive Causemetics Catalog')
+  print('\n  Checking:  Thrive Causemetics Catalog')
   response = requests.get(thrive_causemetics_url)
   content = response.content
   soup = BeautifulSoup(content, 'html.parser')
@@ -34,7 +34,7 @@ def get_contents_thrive_causemetics_deeper(deeper_url):
 def get_contents_100percentpure():
   with open ("./assets/hundred_percent_saved.txt", "w") as file:
     file.write("")
-  print('\n', 'Checking:  ', '100 Percent Pure Catalog')
+  print('\n  Checking:  100 Percent Pure Catalog')
   response = requests.get(hundred_percent_url)
   content = response.content
   soup = BeautifulSoup(content, 'html.parser')
