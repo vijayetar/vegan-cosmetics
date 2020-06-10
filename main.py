@@ -69,11 +69,14 @@ def search_product(user_fav_list=[]):
     '''
     What would you like to view? Quit with (q)
 
-    Your options are: 
+
+
+    Type a product category name or an individual product name:
     Eye Vegan Products: mascara, eye shadow, liner
     Lip Vegan Products: lip products, liner, pencil
     Face Vegan Products: cream, moisturizer, bronzer, foundation, blush, primer
     Nail Vegan Products: nail
+
 
     '''
   ))
@@ -94,7 +97,7 @@ def find_search_product(search_product, user_fav_list):
     function has a dictionary of regex terms, then it iterates through a list of data and if the regex matches up with the search, it appends the items to user_fav_list.  
     """
 
-    regex_dict = {'mascara':'\w*.ascara\w*', 'foundation': '\w*.oundation\w*', 'eye shadow': '\w*.hadow\w*', 'lip products': '\w*.ip\w*', 'bronzer': '\w*.onzer\w*', 'liner': '\w*[Ll]iner\w*', 'pencil' : '\w*.encil', 'blush' : '\w*.lush', 'cream' : '\w*.ream\w*', 'moisturizer': '\w*.oistu\w*', 'nail': '\w*.ail\w*', 'primer': '\w*.rimer\w*', 'powder': '\w*.owder\w*'}
+    regex_dict = {'mascara':'\w*.ascara\w*', 'foundation': '\w*.oundation\w*', 'eye shadow': '\w*.hadow\w*', 'lip products': '\w*.ip\w*', 'bronzer': '\w*.onzer\w*', 'liner': '\w*[Ll]iner\w*', 'pencil' : '\w*.encil', 'blush' : '\w*.lush', 'cream' : '\w*.ream\w*', 'moisturizer': '\w*.oistu\w*', 'nail': '\w*.ail\w*', 'primer': '\w*.rimer\w*', 'powder': '\w*.owder\w*', 'eye vegan products': '\w*.ascara\w*|\w*.hadow\w*|\w*.[Ll]iner\w*', 'lip vegan products': '\w*.ip\w*|\w*[Ll]iner\w*|\w*.encil', 'face vegan products': '\w*.ream\w*|\w*.oistu\w*|\w*.onzer\w*|\w*.oundation\w*|\w*.lush|\w*.rimer\w*', 'nail vegan products': '\w*.ail\w*'}
 
     pattern = str(regex_dict[search_product])
     
