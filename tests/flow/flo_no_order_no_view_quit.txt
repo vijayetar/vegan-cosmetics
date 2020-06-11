@@ -1,0 +1,11 @@
+Would you like to see anything from our store catalog (y/n) Or would you like to quit (q)?
+n
+
+Would you like to view your personal catalog (y/n)? You can also quit (q)
+n
+
+Enter (q) to quit or (y) to view more products 
+q
+****************************************************************************************************
+Thank you for shopping here!
+****************************************************************************************************
