@@ -22,32 +22,6 @@ def test_flo_no_order_no_view_quit():
 def test_flo_order_mascara_cream_no_view_quit():
     Flo.test('tests/flow/flo_order_mascara_cream_no_view.txt')
 
-# def test_user_input():
-#     user_input()
-#     expected = "Thank you! Please come again. "
-#     actual = "Thank you! Please come again. "
-#     assert actual == expected
-
-# def test_bad_user_input():
-#     user_input()
-#     expected = "Please re-enter with y or n"
-#     actual = "Please re-enter with y or n"
-#     assert actual==expected
-
-# def test_welcome_information():
-#     welcome_information()
-#     actual = print(dedent('''
-#   *****************************************
-
-#   Welcome to our Vegan Cosmetic Site!!!
-
-#   *****************************************
-
-#   Press (q) to quit at any time
-#   '''))
-#     expected = print('asdfdasf')
-#     assert actual == expected
-
 def test_regex_found():
     with open('./assets/fake_item_list.txt', 'r') as f:
         item_string = f.read().strip()
