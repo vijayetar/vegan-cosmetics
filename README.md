@@ -89,3 +89,6 @@
 * [Regex references](https://www.regexpal.com/95367)  
 * [Regex development tool](https://regex101.com/)
 * [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+
+## Testing
+* The tests determine if user input on main.py works as expected
