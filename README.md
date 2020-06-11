@@ -1,4 +1,4 @@
-# vegan-cosmetics
+# Vegan Cosmetics
 * Jesse Pena, Corey Marchand, Vij Rangarajan
 * Check cosmetics for vegan ingredients
 
@@ -11,6 +11,13 @@
 * regex
 * json
 * sys
+
+### How to run program
+* Open repo
+* Do a `poetry install` in terminal to add dependencies to your local machine
+* In terminal type: `python main.py`
+* Follow instructions in terminal to progress through application
+* Type and enter `q` at any time to quit
 
 
 ## Title
@@ -79,4 +86,9 @@
 * https://ibb.co/SsFPVPW
 
 ## References  
-[Regex references](https://www.regexpal.com/95367)  
+* [Regex references](https://www.regexpal.com/95367)  
+* [Regex development tool](https://regex101.com/)
+* [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+
+## Testing
+* The tests determine if user input on main.py works as expected
