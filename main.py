@@ -3,8 +3,14 @@ import re
 from vegan_cosmetics.search_with_api.beauty_api import beauty_api_call
 import sys
 from vegan_cosmetics.web_scraper.web_scraper import get_contents_100percentpure, get_contents_100percentpure_deeper, get_contents_thrive_causemetics, get_contents_thrive_causemetics_deeper
+from vegan_cosmetics.encrypt_decrypt.encrypt_decrypt import encrypt_password, decrypt_password
+from vegan_cosmetics.database_peewee.database_peewee import User, FileStorage
+
+## import peewee to create a database for username
+from peewee import *
 
 vegan_makeup_list= []
+new_user=""
 
 def welcome_information():
   """
@@ -19,8 +25,70 @@ def welcome_information():
   Press (q) to quit at any time
   *****************************************
   '''))
-  reset_user_saved_file()
+  get_username_password()
+
+def get_username_password():
+  '''Collects User Name and Password and enters new users into database, and checks password with old users'''
+  global new_user
+
+  new_user = input(dedent(
+    '''
+    Please enter user name:
+    '''
+    ))
+
+  if new_user == "q":
+    print("*" * 100)
+    print("Thank you for shopping here!")
+    print("*" * 100)
+    sys.exit()
+
+  new_user_password = input(dedent(
+    '''
+    Please enter 8 letter password: 
+    '''
+    ))
+
+  while len(new_user_password) < 8:
+    new_user_password = input(dedent(
+    '''
+    Please enter 8 letter password: 
+    '''
+    ))
+
+  check_user_in_database(new_user, new_user_password)
+
   user_input()
+
+def check_user_in_database(new_user, new_user_password):
+  '''Function takes in username and password as argument and checks if they match in the database. If not, they are both added to the database as new user'''
+  # retrieve data from data base and check if it matches
+  for person in User.select():
+    if new_user == person.name:
+      if new_user_password == decrypt_password(person.password):
+        print(f"Welcome Back {new_user}!!!")
+        return
+      print(f"You have entered a wrong password. Please try again!!!")
+      get_username_password()
+      return
+  new_user = new_user.lower()
+
+  user = User(name = new_user, password = encrypt_password(new_user_password))
+
+  user.save() #added to our database
+
+  print(f"Welcome {new_user}!! You have been added to our database.")
+
+  # creates an empty file for the new user and saves path in the FileStorage database
+  file_path_name = f"./assets/user_saved_files/{new_user}_vegan_saved_cosmetics.txt"
+
+  user_file_data = FileStorage.create(owner = user, file_name = file_path_name)
+
+  with open(file_path_name,'w+') as file:
+    file.write("")
+
+  return
+  
 
 def reset_user_saved_file():
   """
@@ -111,13 +179,13 @@ def find_search_product(search_word, user_fav_list):
     if not vegan_makeup_list:
     # API call to makeup_API and the webscraping initiated
       vegan_makeup_list = beauty_api_call()
-      get_contents_100percentpure()
-      get_contents_thrive_causemetics()
+      # get_contents_100percentpure()
+      # get_contents_thrive_causemetics()
 
     # searching for item in the API
     for item in vegan_makeup_list:
       if re.search(pattern,item['name'].strip()):
-        user_fav_list.append(f"Name :   {item['name']}  Cost :    {item['price']} \n")
+        user_fav_list.append(f"Name :   {item['name']}  Cost :    ${item['price']} \n")
 
     with open ("./assets/thrive_cosmetics_saved.txt", "r") as file:
       thrive_cosmetics_scrape = file.readlines()
@@ -149,7 +217,9 @@ def save_user_product(user_fav_list):
     '''))
 
     if order_save == 'y':
-      with open("./assets/vegan_cosmetics_saved.txt", "a+") as file:
+      global new_user
+      query = FileStorage.get(FileStorage.owner == User.get(User.name==new_user))
+      with open(query.file_name, "a+") as file:
         for saved in user_fav_list: 
           file.write(saved + "\n")
       grab_saved_product()
@@ -174,7 +244,9 @@ def grab_saved_product():
   ))
 
   if search_saved_product == 'y':
-    with open("./assets/vegan_cosmetics_saved.txt", "r") as file:
+    global new_user
+    query = FileStorage.get(FileStorage.owner == User.get(User.name==new_user))
+    with open(query.file_name, "r") as file:
       saved_user_file = file.read()
     if not saved_user_file:
       print("*" * 100)
@@ -188,7 +260,7 @@ def grab_saved_product():
 
     user_choice = input(dedent(
       '''
-      Would you like to view more products(y/n) or quit(q)?
+      Would you like to view more products(y) or quit(q)?
       '''
     ))
     if user_choice == 'y':
@@ -198,6 +270,7 @@ def grab_saved_product():
       print("Thank you for shopping here!")
       print("*" * 100)
       sys.exit()
+
   elif search_saved_product == 'n':
     user_choice = input(dedent(
       '''
@@ -216,3 +289,10 @@ def grab_saved_product():
       
 if __name__ == "__main__":
     welcome_information()
+    # for file in FileStorage.select():
+    #   file.delete_instance()
+    # for person in User.select():
+    #   person.delete_instance()
+
+
+
