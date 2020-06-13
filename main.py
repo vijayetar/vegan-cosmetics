@@ -1,10 +1,10 @@
 from textwrap import dedent
 import re
-from vegan_cosmetics.search_with_api.beauty_api import beauty_api_call
+from v_vegan_cosmetics.search_with_api.beauty_api import beauty_api_call
 import sys
-from vegan_cosmetics.web_scraper.web_scraper import get_contents_100percentpure, get_contents_100percentpure_deeper, get_contents_thrive_causemetics, get_contents_thrive_causemetics_deeper
-from vegan_cosmetics.encrypt_decrypt.encrypt_decrypt import encrypt_password, decrypt_password
-from vegan_cosmetics.database_peewee.database_peewee import User, FileStorage
+from v_vegan_cosmetics.web_scraper.web_scraper import get_contents_100percentpure, get_contents_100percentpure_deeper, get_contents_thrive_causemetics, get_contents_thrive_causemetics_deeper
+from v_vegan_cosmetics.encrypt_decrypt.encrypt_decrypt import encrypt_password, decrypt_password
+from v_vegan_cosmetics.database_peewee.database_peewee import User, FileStorage
 
 ## import peewee to create a database for username
 from peewee import *
