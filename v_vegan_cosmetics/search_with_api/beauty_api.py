@@ -1,5 +1,6 @@
 import requests
 import json
+import re
 
 
 def beauty_api_call():
@@ -25,7 +26,10 @@ def making_vegan_makeup_list(response):
         if 'Vegan' in response[i]['tag_list']:
             vegan_dict= {'name':None, 'price':None, 'tag':None, 'description':None}
             vegan_dict['name'] = response[i]['name']
-            vegan_dict['price'] = response[i]['price']
+            if re.search('[$]', response[i]['price']) or response[i]['price'] == '0.0':
+                vegan_dict['price'] = f"{response[i]['price']}"
+            elif response[i]['price']!='0.00':
+                vegan_dict['price'] = f"${response[i]['price']}"
             vegan_dict['tag'] = response[i]['tag_list']
             vegan_dict['description'] = response[i]['description']
             vegan_makeup_list.append(vegan_dict)

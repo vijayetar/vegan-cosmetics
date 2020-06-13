@@ -1,4 +1,11 @@
-# Vegan Cosmetics
+# Vegan Cosmetics 1.1
+* Vij Rangarajan
+
+## Dependencies added
+* peewee
+* cryptography
+
+# Vegan Cosmetics v1.0
 * Jesse Pena, Corey Marchand, Vij Rangarajan
 * Check cosmetics for vegan ingredients
 
@@ -88,7 +95,10 @@
 ## References  
 * [Regex references](https://www.regexpal.com/95367)  
 * [Regex development tool](https://regex101.com/)
-* [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)  
+* [peewee](http://docs.peewee-orm.com/en/latest/peewee/quickstart.html#quickstart)  
+* [cryptography](https://opensource.com/article/19/4/cryptography-python)  
+* [encryption video](https://www.youtube.com/watch?v=H8t4DJ3Tdrg)  
 
 ## Testing
 * The tests determine if user input on main.py works as expected
